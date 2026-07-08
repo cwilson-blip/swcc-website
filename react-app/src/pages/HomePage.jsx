@@ -92,7 +92,7 @@ export default function HomePage() {
       </figure>
       <figure className="mosaic-item">
         <Link className="mosaic-link" to="/campus-housing">
-          <img src="/assets/images/campus/mens-basketball-team.jpg" alt="SwCC Rams men's basketball team" />
+          <img src="/assets/images/campus/mary-carpenter-hall.jpg" alt="Students touring Mary Carpenter Hall, a SwCC residence hall" />
           <figcaption><span>Residence Life</span></figcaption>
         </Link>
       </figure>
