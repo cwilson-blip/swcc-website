@@ -1,4 +1,4 @@
-from common import APPLY_URL, FAFSA_URL
+from common import APPLY_URL, FAFSA_URL, ATHLETICS_URL
 
 RAM_PASS_URL = "https://lp.constantcontactpages.com/ev/reg/wy6gut4/lp/c2d87ad5-8e46-49d3-8e78-6da48310ed9e"
 
@@ -82,32 +82,46 @@ def body():
     </div>
     <div class="mosaic">
       <figure class="mosaic-item mosaic-wide">
-        <img src="assets/images/campus/hallway-balloons-event.jpg" alt="Students gathered for a welcome event on campus">
-        <figcaption><span>Student Organizations</span></figcaption>
+        <a class="mosaic-link" href="programs.html">
+          <img src="assets/images/campus/hallway-balloons-event.jpg" alt="Students gathered for a welcome event on campus">
+          <figcaption><span>Student Organizations</span></figcaption>
+        </a>
       </figure>
       <figure class="mosaic-item">
-        <img src="assets/images/campus/volleyball-team.jpg" alt="SwCC Rams women's volleyball team">
-        <figcaption><span>Athletics</span></figcaption>
+        <a class="mosaic-link" href="{ATHLETICS_URL}" target="_blank" rel="noopener">
+          <img src="assets/images/campus/volleyball-team.jpg" alt="SwCC Rams women's volleyball team">
+          <figcaption><span>Athletics</span></figcaption>
+        </a>
       </figure>
       <figure class="mosaic-item">
-        <img src="assets/images/campus/mens-basketball-team.jpg" alt="SwCC Rams men's basketball team">
-        <figcaption><span>Residence Life</span></figcaption>
+        <a class="mosaic-link" href="campus-housing.html">
+          <img src="assets/images/campus/mens-basketball-team.jpg" alt="SwCC Rams men's basketball team">
+          <figcaption><span>Residence Life</span></figcaption>
+        </a>
       </figure>
       <figure class="mosaic-item">
-        <img src="assets/images/campus/academic-regalia-procession.jpg" alt="Faculty procession at Ben Foster, Jr. Memorial Chapel">
-        <figcaption><span>Chapel &amp; Spiritual Development</span></figcaption>
+        <a class="mosaic-link" href="guiding-philosophy.html">
+          <img src="assets/images/campus/academic-regalia-procession.jpg" alt="Faculty procession at Ben Foster, Jr. Memorial Chapel">
+          <figcaption><span>Chapel &amp; Spiritual Development</span></figcaption>
+        </a>
       </figure>
       <figure class="mosaic-item mosaic-wide">
-        <img src="assets/images/campus/coronation-formal-event.jpg" alt="Student leadership coronation ceremony">
-        <figcaption><span>Leadership Opportunities</span></figcaption>
+        <a class="mosaic-link" href="programs.html">
+          <img src="assets/images/campus/coronation-formal-event.jpg" alt="Student leadership coronation ceremony">
+          <figcaption><span>Leadership Opportunities</span></figcaption>
+        </a>
       </figure>
       <figure class="mosaic-item">
-        <img src="assets/images/campus/hbcu-congratulations-group.jpg" alt="Alumnae and community members celebrating together"></img>
-        <figcaption><span>Community Service</span></figcaption>
+        <a class="mosaic-link" href="alumni.html">
+          <img src="assets/images/campus/hbcu-congratulations-group.jpg" alt="Alumnae and community members celebrating together">
+          <figcaption><span>Community Service</span></figcaption>
+        </a>
       </figure>
       <figure class="mosaic-item">
-        <img src="assets/images/campus/classroom-teaching.jpg" alt="Students in a computer science classroom">
-        <figcaption><span>Study Abroad Opportunities</span></figcaption>
+        <a class="mosaic-link" href="academics.html">
+          <img src="assets/images/campus/classroom-teaching.jpg" alt="Students in a computer science classroom">
+          <figcaption><span>Study Abroad Opportunities</span></figcaption>
+        </a>
       </figure>
     </div>
   </div>

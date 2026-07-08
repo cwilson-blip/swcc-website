@@ -468,14 +468,21 @@ body.nav-locked { overflow: hidden; }
   gap: 14px;
 }
 .mosaic-item { position: relative; margin: 0; border-radius: var(--radius-md); overflow: hidden; }
+.mosaic-link { display: block; position: relative; width: 100%; height: 100%; }
+.mosaic-link:focus-visible { outline: 3px solid var(--brass); outline-offset: -3px; }
 .mosaic-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
 .mosaic-item:hover img { transform: scale(1.05); }
 .mosaic-wide { grid-column: span 2; grid-row: span 2; }
 .mosaic-item figcaption {
   position: absolute; left: 0; right: 0; bottom: 0; padding: 16px 18px;
-  background: linear-gradient(0deg, rgba(17,22,42,0.85), transparent);
+  background: linear-gradient(0deg, rgba(17,22,42,0.9), transparent);
   font-family: var(--font-label); font-size: 0.8rem; letter-spacing: 0.04em; text-transform: uppercase; color: #fff;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
 }
+.mosaic-item figcaption::after {
+  content: "\2197"; opacity: 0.75; transition: transform 0.25s ease, opacity 0.25s ease;
+}
+.mosaic-item:hover figcaption::after { transform: translate(2px, -2px); opacity: 1; }
 
 .rampass-section { background: var(--ink); }
 .rampass-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px; align-items: center; }
