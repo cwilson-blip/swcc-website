@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { NAV, UTILITY, APPLY_URL, isExternal } from "../nav";
 
-export default function Header() {
+export default function Header({ onSearchOpen }) {
   const [navOpen, setNavOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState(null);
   const [scrolled, setScrolled] = useState(false);
@@ -96,6 +96,12 @@ export default function Header() {
             </ul>
           </nav>
           <div className="nav-cta">
+            <button className="search-trigger" aria-label="Search the site" onClick={onSearchOpen}>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
             <a className="btn btn-brass" href={APPLY_URL} target="_blank" rel="noopener noreferrer">
               Apply Now
             </a>

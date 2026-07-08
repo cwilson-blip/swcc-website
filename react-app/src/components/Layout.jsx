@@ -1,10 +1,24 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import SearchOverlay from "./SearchOverlay";
 
 export default function Layout() {
   const location = useLocation();
+  const [searchOpen, setSearchOpen] = useState(false);
+
+  useEffect(() => {
+    function onKeyDown(e) {
+      if ((e.key === "/" && !searchOpen && document.activeElement.tagName !== "INPUT") ||
+          ((e.metaKey || e.ctrlKey) && e.key === "k")) {
+        e.preventDefault();
+        setSearchOpen(true);
+      }
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [searchOpen]);
 
   useEffect(() => {
     if (location.hash) {
@@ -40,11 +54,12 @@ export default function Layout() {
 
   return (
     <>
-      <Header />
+      <Header onSearchOpen={() => setSearchOpen(true)} />
       <main id="main">
         <Outlet />
       </main>
       <Footer />
+      <SearchOverlay open={searchOpen} onClose={() => setSearchOpen(false)} />
     </>
   );
 }

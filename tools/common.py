@@ -128,6 +128,12 @@ def render_header(active=None):
       </ul>
     </nav>
     <div class="nav-cta">
+      <button class="search-trigger" id="search-toggle" aria-label="Search the site">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
       <a class="btn btn-brass" href="{APPLY_URL}" target="_blank" rel="noopener">Apply Now</a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -135,6 +141,19 @@ def render_header(active=None):
     </div>
   </div>
 </header>
+<div class="search-overlay" id="search-overlay">
+  <div class="search-panel" role="dialog" aria-modal="true" aria-label="Search the site">
+    <div class="search-input-row">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="search-input" placeholder="Search admissions, academics, financial aid&hellip;" autocomplete="off">
+      <button class="search-close" id="search-close" aria-label="Close search">&times;</button>
+    </div>
+    <div class="search-results" id="search-results"></div>
+  </div>
+</div>
 '''
 
 
@@ -256,6 +275,7 @@ def render_page(title, description, body, active=None, extra_head=""):
 </main>
 {render_footer()}
 <script src="js/main.js"></script>
+<script src="js/search.js"></script>
 </body>
 </html>
 '''
