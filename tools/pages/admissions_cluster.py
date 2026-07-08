@@ -108,13 +108,35 @@ add("how-to-enroll.html", "How To Enroll", "Step-by-step instructions to enroll 
 
 # ---------------------------------------------------------------- Campus Housing
 add("campus-housing.html", "Campus Housing", "Campus housing at Southwestern Christian College — modern, air-conditioned residence halls for men and women.", f'''
-{photo_hero("Admissions", "Campus Housing", "Modern, air-conditioned residence halls, with separate facilities for men and women.", "assets/images/campus/welcome-day-gathering.jpg", "Students gathered in a residence hall common area")}
+{photo_hero("Admissions", "Campus Housing", "Modern, air-conditioned residence halls, with separate facilities for men and women.", "assets/images/campus/mary-carpenter-hall.jpg", "Students touring Mary Carpenter Hall, a SwCC residence hall")}
 <section class="section on-paper">
   <div class="container prose">
     <h2>SwCC Residence Halls</h2>
     <p>Southwestern Christian College houses students in modern, air-conditioned, two-story residence halls, with separate facilities for men and women. Each hall is built for comfortable, close-knit community living &mdash; the kind of shared experience that turns classmates into lifelong friends.</p>
     <p>A $50 non-refundable dorm room deposit reserves your space. See the <a href="how-to-enroll.html">How To Enroll</a> page for full application steps, or the <a href="tuition-fees.html">Tuition &amp; Fees</a> page for the full cost of attendance.</p>
     <a class="btn btn-outline-dark" href="how-to-enroll.html">Start Your Application</a>
+  </div>
+</section>
+<section class="section section-tight on-surface">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Take a Look Inside</p>
+      <h2>Life in the Halls</h2>
+    </div>
+    <div class="grid grid-3 photo-grid">
+      <figure class="photo-card">
+        <img src="assets/images/campus/residence-hall-common-room.jpg" alt="Residence hall common room with a television and seating">
+        <figcaption>Common Room</figcaption>
+      </figure>
+      <figure class="photo-card">
+        <img src="assets/images/campus/residence-hall-lounge.jpg" alt="Residence hall lounge with couches and a chair">
+        <figcaption>Resident Lounge</figcaption>
+      </figure>
+      <figure class="photo-card">
+        <img src="assets/images/campus/residence-hall-corridor.jpg" alt="Hallway of dorm rooms inside a SwCC residence hall">
+        <figcaption>Residence Hall Corridor</figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 ''')

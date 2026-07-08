@@ -11,7 +11,7 @@ export default function CampusHousingPage() {
 
 <section className="page-hero">
   <div className="hero-media">
-    <img src="/assets/images/campus/welcome-day-gathering.jpg" alt="Students gathered in a residence hall common area" />
+    <img src="/assets/images/campus/mary-carpenter-hall.jpg" alt="Students touring Mary Carpenter Hall, a SwCC residence hall" />
     <div className="hero-scrim"></div>
   </div>
   <div className="container page-hero-inner">
@@ -27,6 +27,28 @@ export default function CampusHousingPage() {
     <p>Southwestern Christian College houses students in modern, air-conditioned, two-story residence halls, with separate facilities for men and women. Each hall is built for comfortable, close-knit community living — the kind of shared experience that turns classmates into lifelong friends.</p>
     <p>A $50 non-refundable dorm room deposit reserves your space. See the <Link to="/how-to-enroll">How To Enroll</Link> page for full application steps, or the <Link to="/tuition-fees">Tuition & Fees</Link> page for the full cost of attendance.</p>
     <Link className="btn btn-outline-dark" to="/how-to-enroll">Start Your Application</Link>
+  </div>
+</section>
+<section className="section section-tight on-surface">
+  <div className="container">
+    <div className="section-head">
+      <p className="eyebrow">Take a Look Inside</p>
+      <h2>Life in the Halls</h2>
+    </div>
+    <div className="grid grid-3 photo-grid">
+      <figure className="photo-card">
+        <img src="/assets/images/campus/residence-hall-common-room.jpg" alt="Residence hall common room with a television and seating" />
+        <figcaption>Common Room</figcaption>
+      </figure>
+      <figure className="photo-card">
+        <img src="/assets/images/campus/residence-hall-lounge.jpg" alt="Residence hall lounge with couches and a chair" />
+        <figcaption>Resident Lounge</figcaption>
+      </figure>
+      <figure className="photo-card">
+        <img src="/assets/images/campus/residence-hall-corridor.jpg" alt="Hallway of dorm rooms inside a SwCC residence hall" />
+        <figcaption>Residence Hall Corridor</figcaption>
+      </figure>
+    </div>
   </div>
 </section>
 

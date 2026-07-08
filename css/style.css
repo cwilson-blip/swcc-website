@@ -650,6 +650,14 @@ body.nav-locked { overflow: hidden; }
 .person-card p { margin-top: 10px; font-size: 0.92rem; }
 .person-card a { color: var(--stone); font-size: 0.88rem; }
 
+.photo-grid { margin: 0; }
+.photo-card { margin: 0; border-radius: var(--radius-md); overflow: hidden; background: var(--surface); border: 1px solid var(--line); }
+.photo-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+.photo-card figcaption {
+  padding: 14px 18px; font-family: var(--font-label); font-size: 0.78rem; text-transform: uppercase;
+  letter-spacing: 0.04em; color: var(--stone);
+}
+
 .timeline { border-left: 2px solid var(--line); padding-left: 32px; display: flex; flex-direction: column; gap: 40px; margin-top: 12px; }
 .timeline-item { position: relative; }
 .timeline-item::before {
