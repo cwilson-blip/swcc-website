@@ -1,0 +1,12 @@
+.DS_Store
+**/.DS_Store
+
+# React app build artifacts (regenerate with npm install && npm run build)
+react-app/node_modules/
+react-app/dist/
+react-app/.vite/
+
+# editor/OS cruft
+*.log
+.vscode/
+.claude/

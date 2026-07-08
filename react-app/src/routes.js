@@ -1,0 +1,105 @@
+import { lazy } from "react";
+
+const HomePage = lazy(() => import("./pages/HomePage.jsx"));
+const AboutPage = lazy(() => import("./pages/AboutPage.jsx"));
+const PresidentPage = lazy(() => import("./pages/PresidentPage.jsx"));
+const BoardPage = lazy(() => import("./pages/BoardPage.jsx"));
+const FacultyStaffPage = lazy(() => import("./pages/FacultyStaffPage.jsx"));
+const GuidingPhilosophyPage = lazy(() => import("./pages/GuidingPhilosophyPage.jsx"));
+const HistoryPage = lazy(() => import("./pages/HistoryPage.jsx"));
+const VideosPage = lazy(() => import("./pages/VideosPage.jsx"));
+const AlumniPage = lazy(() => import("./pages/AlumniPage.jsx"));
+const AdmissionsPage = lazy(() => import("./pages/AdmissionsPage.jsx"));
+const HowToEnrollPage = lazy(() => import("./pages/HowToEnrollPage.jsx"));
+const CampusHousingPage = lazy(() => import("./pages/CampusHousingPage.jsx"));
+const TuitionFeesPage = lazy(() => import("./pages/TuitionFeesPage.jsx"));
+const PreviewDayPage = lazy(() => import("./pages/PreviewDayPage.jsx"));
+const AdmissionsInternationalPage = lazy(() => import("./pages/AdmissionsInternationalPage.jsx"));
+const AdmittedNextStepsPage = lazy(() => import("./pages/AdmittedNextStepsPage.jsx"));
+const FinancialAidPage = lazy(() => import("./pages/FinancialAidPage.jsx"));
+const ScholarshipsPage = lazy(() => import("./pages/ScholarshipsPage.jsx"));
+const GrantsPage = lazy(() => import("./pages/GrantsPage.jsx"));
+const LoansPage = lazy(() => import("./pages/LoansPage.jsx"));
+const WorkStudyPage = lazy(() => import("./pages/WorkStudyPage.jsx"));
+const AcademicsPage = lazy(() => import("./pages/AcademicsPage.jsx"));
+const DegreePlansPage = lazy(() => import("./pages/DegreePlansPage.jsx"));
+const OnlineClassesPage = lazy(() => import("./pages/OnlineClassesPage.jsx"));
+const AcademicCatalogsPage = lazy(() => import("./pages/AcademicCatalogsPage.jsx"));
+const ProgramsPage = lazy(() => import("./pages/ProgramsPage.jsx"));
+const ChorusPage = lazy(() => import("./pages/ChorusPage.jsx"));
+const CareerPage = lazy(() => import("./pages/CareerPage.jsx"));
+const InitiativesPage = lazy(() => import("./pages/InitiativesPage.jsx"));
+const InstitutionalEffectivenessPage = lazy(() => import("./pages/InstitutionalEffectivenessPage.jsx"));
+const CaresActPage = lazy(() => import("./pages/CaresActPage.jsx"));
+const TitleIxPage = lazy(() => import("./pages/TitleIxPage.jsx"));
+const StudentAchievementPage = lazy(() => import("./pages/StudentAchievementPage.jsx"));
+const EventsPage = lazy(() => import("./pages/EventsPage.jsx"));
+const GraduationPage = lazy(() => import("./pages/GraduationPage.jsx"));
+const ConsumerInformationPage = lazy(() => import("./pages/ConsumerInformationPage.jsx"));
+const ResourcesPage = lazy(() => import("./pages/ResourcesPage.jsx"));
+const DefaultPreventionPage = lazy(() => import("./pages/DefaultPreventionPage.jsx"));
+const DirectoryPage = lazy(() => import("./pages/DirectoryPage.jsx"));
+const PolicyStatementsPage = lazy(() => import("./pages/PolicyStatementsPage.jsx"));
+const ServicesPage = lazy(() => import("./pages/ServicesPage.jsx"));
+const LibraryPage = lazy(() => import("./pages/LibraryPage.jsx"));
+const StudentSuccessPage = lazy(() => import("./pages/StudentSuccessPage.jsx"));
+const CampusRenovationsPage = lazy(() => import("./pages/CampusRenovationsPage.jsx"));
+const CampusSafetyPage = lazy(() => import("./pages/CampusSafetyPage.jsx"));
+const DonatePage = lazy(() => import("./pages/DonatePage.jsx"));
+const TranscriptRequestPage = lazy(() => import("./pages/TranscriptRequestPage.jsx"));
+const ContactPage = lazy(() => import("./pages/ContactPage.jsx"));
+const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage.jsx"));
+const TermsPage = lazy(() => import("./pages/TermsPage.jsx"));
+
+export const routes = [
+  { path: "/", Component: HomePage },
+  { path: "/about", Component: AboutPage },
+  { path: "/president", Component: PresidentPage },
+  { path: "/board", Component: BoardPage },
+  { path: "/faculty-staff", Component: FacultyStaffPage },
+  { path: "/guiding-philosophy", Component: GuidingPhilosophyPage },
+  { path: "/history", Component: HistoryPage },
+  { path: "/videos", Component: VideosPage },
+  { path: "/alumni", Component: AlumniPage },
+  { path: "/admissions", Component: AdmissionsPage },
+  { path: "/how-to-enroll", Component: HowToEnrollPage },
+  { path: "/campus-housing", Component: CampusHousingPage },
+  { path: "/tuition-fees", Component: TuitionFeesPage },
+  { path: "/preview-day", Component: PreviewDayPage },
+  { path: "/admissions-international", Component: AdmissionsInternationalPage },
+  { path: "/admitted-next-steps", Component: AdmittedNextStepsPage },
+  { path: "/financial-aid", Component: FinancialAidPage },
+  { path: "/scholarships", Component: ScholarshipsPage },
+  { path: "/grants", Component: GrantsPage },
+  { path: "/loans", Component: LoansPage },
+  { path: "/work-study", Component: WorkStudyPage },
+  { path: "/academics", Component: AcademicsPage },
+  { path: "/degree-plans", Component: DegreePlansPage },
+  { path: "/online-classes", Component: OnlineClassesPage },
+  { path: "/academic-catalogs", Component: AcademicCatalogsPage },
+  { path: "/programs", Component: ProgramsPage },
+  { path: "/chorus", Component: ChorusPage },
+  { path: "/career", Component: CareerPage },
+  { path: "/initiatives", Component: InitiativesPage },
+  { path: "/institutional-effectiveness", Component: InstitutionalEffectivenessPage },
+  { path: "/cares-act", Component: CaresActPage },
+  { path: "/title-ix", Component: TitleIxPage },
+  { path: "/student-achievement", Component: StudentAchievementPage },
+  { path: "/events", Component: EventsPage },
+  { path: "/graduation", Component: GraduationPage },
+  { path: "/consumer-information", Component: ConsumerInformationPage },
+  { path: "/resources", Component: ResourcesPage },
+  { path: "/default-prevention", Component: DefaultPreventionPage },
+  { path: "/directory", Component: DirectoryPage },
+  { path: "/policy-statements", Component: PolicyStatementsPage },
+  { path: "/services", Component: ServicesPage },
+  { path: "/library", Component: LibraryPage },
+  { path: "/student-success", Component: StudentSuccessPage },
+  { path: "/campus-renovations", Component: CampusRenovationsPage },
+  { path: "/campus-safety", Component: CampusSafetyPage },
+  { path: "/donate", Component: DonatePage },
+  { path: "/transcript-request", Component: TranscriptRequestPage },
+  { path: "/contact", Component: ContactPage },
+  { path: "/privacy-policy", Component: PrivacyPolicyPage },
+  { path: "/terms", Component: TermsPage },
+];
