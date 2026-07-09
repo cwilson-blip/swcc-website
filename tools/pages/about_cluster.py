@@ -136,7 +136,7 @@ def _board_cards():
 
 
 add("board.html", "Meet Our Board", "Meet the Board of Trustees of Southwestern Christian College.", f'''
-{plain_hero("About SwCC", "Meet Our Board of Trustees", "The volunteer leaders who steward the mission of Southwestern Christian College.")}
+{photo_hero("About SwCC", "Meet Our Board of Trustees", "The volunteer leaders who steward the mission of Southwestern Christian College.", "assets/images/campus/board-of-trustees.jpg", "The Southwestern Christian College Board of Trustees in academic regalia at a commencement ceremony")}
 <section class="section on-paper">
   <div class="container">
     <div class="people-grid">
