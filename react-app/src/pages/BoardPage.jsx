@@ -8,18 +8,19 @@ export default function BoardPage() {
   return (
     <>
 
-<section className="page-hero">
-  <div className="hero-media">
-    <img src="/assets/images/campus/board-of-trustees.jpg" alt="The Southwestern Christian College Board of Trustees in academic regalia at a commencement ceremony" />
-    <div className="hero-scrim"></div>
-  </div>
-  <div className="container page-hero-inner">
+<section className="page-hero-plain">
+  <div className="container">
     <p className="eyebrow eyebrow-invert">About SwCC</p>
     <h1>Meet Our Board of Trustees</h1>
-    <p className="lede hero-lede">The volunteer leaders who steward the mission of Southwestern Christian College.</p>
+    <p className="lede">The volunteer leaders who steward the mission of Southwestern Christian College.</p>
   </div>
 </section>
 
+<section className="section section-tight on-surface">
+  <div className="container banner-figure">
+    <img src="/assets/images/campus/board-of-trustees.jpg" alt="The Southwestern Christian College Board of Trustees in academic regalia at a commencement ceremony" />
+  </div>
+</section>
 <section className="section on-paper">
   <div className="container">
     <div className="people-grid">
