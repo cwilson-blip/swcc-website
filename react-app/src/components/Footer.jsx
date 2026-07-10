@@ -90,6 +90,7 @@ export default function Footer() {
           <ul>
             <li><Link to="/consumer-information">Consumer Information</Link></li>
             <li><Link to="/campus-safety">Campus Safety</Link></li>
+            <li><Link to="/grievance-policy">Student Grievance Policy</Link></li>
             <li><Link to="/directory">Campus Directory</Link></li>
             <li><Link to="/transcript-request">Transcript Request</Link></li>
             <li><Link to="/donate">Donate</Link></li>

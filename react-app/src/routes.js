@@ -40,6 +40,7 @@ const ResourcesPage = lazy(() => import("./pages/ResourcesPage.jsx"));
 const DefaultPreventionPage = lazy(() => import("./pages/DefaultPreventionPage.jsx"));
 const DirectoryPage = lazy(() => import("./pages/DirectoryPage.jsx"));
 const PolicyStatementsPage = lazy(() => import("./pages/PolicyStatementsPage.jsx"));
+const GrievancePolicyPage = lazy(() => import("./pages/GrievancePolicyPage.jsx"));
 const ServicesPage = lazy(() => import("./pages/ServicesPage.jsx"));
 const LibraryPage = lazy(() => import("./pages/LibraryPage.jsx"));
 const StudentSuccessPage = lazy(() => import("./pages/StudentSuccessPage.jsx"));
@@ -92,6 +93,7 @@ export const routes = [
   { path: "/default-prevention", Component: DefaultPreventionPage },
   { path: "/directory", Component: DirectoryPage },
   { path: "/policy-statements", Component: PolicyStatementsPage },
+  { path: "/grievance-policy", Component: GrievancePolicyPage },
   { path: "/services", Component: ServicesPage },
   { path: "/library", Component: LibraryPage },
   { path: "/student-success", Component: StudentSuccessPage },

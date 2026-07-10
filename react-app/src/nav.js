@@ -91,6 +91,7 @@ export const NAV = [
       ["Default Prevention", "/default-prevention"],
       ["Campus Directory", "/directory"],
       ["Policy Statements", "/policy-statements"],
+      ["Student Grievance Policy", "/grievance-policy"],
       ["Our Services", "/services"],
       ["Doris Johnson Library", "/library"],
       ["Center for Student Success", "/student-success"],

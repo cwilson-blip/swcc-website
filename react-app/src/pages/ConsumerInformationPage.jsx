@@ -40,12 +40,17 @@ export default function ConsumerInformationPage() {
     <ul className="doc-list">
       <li><Link to="/campus-safety">Fire and Safety Report</Link></li>
     </ul>
+    <h2 style={{margin: '40px 0 8px'}}>Student Rights</h2>
+    <ul className="doc-list">
+      <li><Link to="/grievance-policy">Student Grievance Policy & Procedure</Link></li>
+    </ul>
     <h2 style={{margin: '40px 0 16px'}}>More Consumer Information</h2>
     <div className="grid grid-4 plaque-grid">
       <Link className="plaque" to="/resources" style={{display: 'block'}}><h4>Resources</h4></Link>
       <Link className="plaque" to="/default-prevention" style={{display: 'block'}}><h4>Default Prevention</h4></Link>
       <Link className="plaque" to="/directory" style={{display: 'block'}}><h4>Campus Directory</h4></Link>
       <Link className="plaque" to="/policy-statements" style={{display: 'block'}}><h4>Policy Statements</h4></Link>
+      <Link className="plaque" to="/grievance-policy" style={{display: 'block'}}><h4>Student Grievance Policy</h4></Link>
       <Link className="plaque" to="/services" style={{display: 'block'}}><h4>Our Services</h4></Link>
       <Link className="plaque" to="/library" style={{display: 'block'}}><h4>Doris Johnson Library</h4></Link>
       <Link className="plaque" to="/student-success" style={{display: 'block'}}><h4>Center for Student Success</h4></Link>

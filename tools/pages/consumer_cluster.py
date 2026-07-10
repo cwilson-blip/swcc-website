@@ -32,12 +32,17 @@ add("consumer-information.html", "Consumer Information", "Consumer information d
     <ul class="doc-list">
       <li><a href="campus-safety.html">Fire and Safety Report</a></li>
     </ul>
+    <h2 style="margin:40px 0 8px;">Student Rights</h2>
+    <ul class="doc-list">
+      <li><a href="grievance-policy.html">Student Grievance Policy &amp; Procedure</a></li>
+    </ul>
     <h2 style="margin:40px 0 16px;">More Consumer Information</h2>
     <div class="grid grid-4 plaque-grid">
       <a class="plaque" href="resources.html" style="display:block;"><h4>Resources</h4></a>
       <a class="plaque" href="default-prevention.html" style="display:block;"><h4>Default Prevention</h4></a>
       <a class="plaque" href="directory.html" style="display:block;"><h4>Campus Directory</h4></a>
       <a class="plaque" href="policy-statements.html" style="display:block;"><h4>Policy Statements</h4></a>
+      <a class="plaque" href="grievance-policy.html" style="display:block;"><h4>Student Grievance Policy</h4></a>
       <a class="plaque" href="services.html" style="display:block;"><h4>Our Services</h4></a>
       <a class="plaque" href="library.html" style="display:block;"><h4>Doris Johnson Library</h4></a>
       <a class="plaque" href="student-success.html" style="display:block;"><h4>Center for Student Success</h4></a>
@@ -158,6 +163,112 @@ add("policy-statements.html", "Policy Statements", "Intellectual Property Policy
     <p>Syllabi, assignments, and tests remain faculty property, though the college retains the right to use them internally. Faculty must preserve institutional rights when transferring copyright to outside publishers.</p>
     <h2>Governance</h2>
     <p>The Faculty Senate administers and monitors these standards, conducts periodic review of the policy, and resolves related disputes.</p>
+  </div>
+</section>
+''')
+
+GRIEVANCE_FORM_URL = "https://swcc.populiweb.com/router/forms/respond/8/671dfab93639f74b7208b3300058e356"
+
+add("grievance-policy.html", "Student Grievance Policy", "Grievance Policies & Procedure for Southwestern Christian College students, including how to file a formal grievance against a faculty or staff member.", f'''
+{plain_hero("Consumer Information", "Grievance Policies &amp; Procedure", "Student Grievance Policy")}
+<section class="section section-tight on-surface">
+  <div class="container">
+    <div class="callout" style="display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:20px; margin:0;">
+      <div>
+        <h4 style="margin-bottom:6px;">Ready to file a grievance?</h4>
+        <p style="color:var(--stone); font-size:0.95rem; margin:0;">Complete the Grievance/Complaint Form online through Populi.</p>
+      </div>
+      <a class="btn btn-brass" href="{GRIEVANCE_FORM_URL}" target="_blank" rel="noopener">File a Grievance</a>
+    </div>
+  </div>
+</section>
+<section class="section on-paper">
+  <div class="container prose">
+    <h2>Student Grievance Policy</h2>
+    <p>The purpose of this policy is to set out the guidelines and standards for the filing of a formal grievance by a student against a faculty or staff member. A grievance may arise out of a decision reached or action taken in the course of official duty by a member of the faculty or staff. Any student has the right to file a grievance. The SwCC Grievance Policy is applicable to complaints or grievances associated with discrimination; disability accommodations; harassment; grade disputes such as academic probation, suspension and/or academic dismissal, academic dishonesty; absences; disciplinary actions for social offenses, and Financial Aid.</p>
+
+    <h2>Administrative Procedures</h2>
+    <p>All offices should maintain a log of student grievances using SG form-003. The log sheet shall record:</p>
+    <ul>
+      <li>The tracking number of the student grievance;</li>
+      <li>Date and the time grievance was reported;</li>
+      <li>Student name;</li>
+      <li>Summary of grievance; and</li>
+      <li>Satisfactory or unsatisfactory resolution of the case by the student.</li>
+    </ul>
+    <p>Tracking number codes should use a six digit number with the following prefix in the first two numbers:</p>
+    <div class="def-grid">
+      <div><dt>Academic Affairs</dt><dd>22 _ _ _ _</dd></div>
+      <div><dt>Student Affairs</dt><dd>33 _ _ _ _</dd></div>
+      <div><dt>Financial Affairs</dt><dd>44 _ _ _ _</dd></div>
+      <div><dt>President&rsquo;s Office</dt><dd>55 _ _ _ _</dd></div>
+    </div>
+    <p>The Vice President of Student Affairs/Dean of Students is responsible for centralizing the log of student grievances from all offices. To facilitate this process, each office will send to the Vice President of Student Affairs Office their monthly log of student grievances either by email or hard copy.</p>
+    <p>In addition to documenting a log of student grievances, the President&rsquo;s Office, the Business Office, Vice President of Academic Affairs, and Vice President of Student Affairs will have blank copies of the Student Grievance Forms to issue to a student when a complaint is to be filed.</p>
+    <p>Each office will investigate the student complaint as well as follow-up with a student within three business days.</p>
+    <p>If a student does not return to a particular office to request a response to the investigation, it is the responsibility of the particular office to follow up with the student via email, phone, or conference.</p>
+    <p>Each office will document each student&rsquo;s satisfaction or dissatisfaction with the resolution.</p>
+  </div>
+</section>
+<section class="section on-surface">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">How To File</p>
+      <h2>Student Procedures for Filing Grievances</h2>
+      <p class="lede">Prior to filing a formal grievance, a student has the right to engage in informal discourse or negotiation privately with the faculty or staff member, or the immediate supervisor of the staff member or academic dean of the faculty member. If this avenue has been exhausted without providing a satisfactory conclusion, and the student desires to file a formal grievance, the following course of action should be taken.</p>
+    </div>
+    <div class="callout">
+      <p><strong>Note:</strong> All student grievances and all steps in the grievance process must be documented on the Grievance/Complaint Form (GCF). Digital and hard copies shall be kept in each of the appropriate offices of the institution.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>The GCF shall be available and on file in the offices of each unit on the campus of the institution. The form shall also be available as a downloadable, &ldquo;fill-in&rdquo; PDF file on the school website.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>Students shall follow all instructions on the form.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>Student complaints shall be concise and to the point of the complaint.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>Students should use the &ldquo;Complaint Origination Date&rdquo; to record when the event occurred that brought on the complaint.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>Students shall complete and submit the form to the appropriate office within 14 days of the incident.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>The office shall assign a tracking number in the gray box in the upper right-hand corner of the form and inform the student of the number.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>Students shall return to the appropriate office and request a response if one has not been received within three (3) business days.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>After the above action has taken place, students shall initial the form at the appropriate place to indicate that the issue has been resolved or not resolved, and whether further action is requested.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>Provision is made to resubmit the form if the response is unsatisfactory to the student.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>If the student and the parties involved cannot arrive at a satisfactory resolution, the student may submit the form to a higher authority and document such action on the form.</p></div>
+      </div>
+      <div class="step">
+        <span class="step-num" aria-hidden="true"></span>
+        <div><p>The student should submit the form to the office of the President ONLY after all other options have been exhausted.</p></div>
+      </div>
+    </div>
+    <div class="btn-row" style="margin-top:36px;">
+      <a class="btn btn-brass" href="{GRIEVANCE_FORM_URL}" target="_blank" rel="noopener">File a Grievance</a>
+    </div>
   </div>
 </section>
 ''')

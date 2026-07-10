@@ -64,6 +64,7 @@ NAV = [
         ("Default Prevention", "default-prevention.html"),
         ("Campus Directory", "directory.html"),
         ("Policy Statements", "policy-statements.html"),
+        ("Student Grievance Policy", "grievance-policy.html"),
         ("Our Services", "services.html"),
         ("Doris Johnson Library", "library.html"),
         ("Center for Student Success", "student-success.html"),
@@ -213,6 +214,7 @@ def render_footer():
       <ul>
         <li><a href="consumer-information.html">Consumer Information</a></li>
         <li><a href="campus-safety.html">Campus Safety</a></li>
+        <li><a href="grievance-policy.html">Student Grievance Policy</a></li>
         <li><a href="directory.html">Campus Directory</a></li>
         <li><a href="transcript-request.html">Transcript Request</a></li>
         <li><a href="donate.html">Donate</a></li>
