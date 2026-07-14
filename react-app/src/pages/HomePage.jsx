@@ -11,10 +11,10 @@ export default function HomePage() {
 
 <section className="hero">
   <div className="hero-media">
-    <video autoPlay muted loop playsInline poster="/assets/images/campus/hero-strengthening-faith-poster.jpg" aria-label="Southwestern Christian College commencement address, Strengthening Faith">
-      <source src="/assets/video/hero-strengthening-faith.mp4" type="video/mp4" />
+    <video autoPlay muted loop playsInline poster="/assets/images/campus/hero-swcc-video-poster.jpg" aria-label="Southwestern Christian College campus video">
+      <source src="/assets/video/hero-swcc-video.mp4" type="video/mp4" />
     </video>
-    <img className="hero-media-fallback" src="/assets/images/campus/hero-strengthening-faith-poster.jpg" alt="Southwestern Christian College commencement address" />
+    <img className="hero-media-fallback" src="/assets/images/campus/hero-swcc-video-poster.jpg" alt="Southwestern Christian College campus video" />
     <div className="hero-scrim"></div>
   </div>
   <div className="container hero-inner">

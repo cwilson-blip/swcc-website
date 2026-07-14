@@ -14,10 +14,10 @@ def body():
     return f'''
 <section class="hero">
   <div class="hero-media">
-    <video autoplay muted loop playsinline poster="assets/images/campus/hero-strengthening-faith-poster.jpg" aria-label="Southwestern Christian College commencement address, Strengthening Faith">
-      <source src="assets/video/hero-strengthening-faith.mp4" type="video/mp4">
+    <video autoplay muted loop playsinline poster="assets/images/campus/hero-swcc-video-poster.jpg" aria-label="Southwestern Christian College campus video">
+      <source src="assets/video/hero-swcc-video.mp4" type="video/mp4">
     </video>
-    <img class="hero-media-fallback" src="assets/images/campus/hero-strengthening-faith-poster.jpg" alt="Southwestern Christian College commencement address">
+    <img class="hero-media-fallback" src="assets/images/campus/hero-swcc-video-poster.jpg" alt="Southwestern Christian College campus video">
     <div class="hero-scrim"></div>
   </div>
   <div class="container hero-inner">
