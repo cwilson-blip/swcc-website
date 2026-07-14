@@ -56,7 +56,7 @@ NAV = [
     ]),
     ("Events", "events.html", [
         ("2026 Graduation", "graduation.html"),
-        ("2025 Lectureship", LECTURESHIP_URL),
+        ("2026 Lectureship", LECTURESHIP_URL),
         ("Purchase Seats", PURCHASE_SEATS_URL),
     ]),
     ("Consumer Info", "consumer-information.html", [

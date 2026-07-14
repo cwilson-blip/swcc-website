@@ -335,17 +335,17 @@ add("campus-renovations.html", "Campus Renovations", "Ongoing campus renovation 
 <section class="section on-paper">
   <div class="container">
     <div class="grid grid-4 plaque-grid">
-      <div class="plaque"><h4>Administration Building</h4><p>Final Phase &amp; Phase 1</p></div>
+      <div class="plaque"><h4>Administration Building</h4></div>
       <div class="plaque"><h4>GKF Performing Arts Center</h4></div>
-      <div class="plaque"><h4>G.P. Bowser Memorial Gymnasium</h4><p>Phase 1</p></div>
+      <div class="plaque"><h4>G.P. Bowser Memorial Gymnasium</h4></div>
       <div class="plaque"><h4>Men&rsquo;s Residence Hall</h4></div>
-      <div class="plaque"><h4>Women&rsquo;s Residence Hall</h4><p>Phase 1 &amp; 2</p></div>
-      <div class="plaque"><h4>Round House</h4><p>Phase 3</p></div>
-      <div class="plaque"><h4>Student Union Building</h4><p>Phase 1 &amp; 3</p></div>
+      <div class="plaque"><h4>Women&rsquo;s Residence Hall</h4></div>
+      <div class="plaque"><h4>Round House</h4></div>
+      <div class="plaque"><h4>Student Union Building</h4></div>
       <div class="plaque"><h4>Entrance &amp; Circle</h4></div>
-      <div class="plaque"><h4>Guest Housing</h4><p>Phase 3</p></div>
+      <div class="plaque"><h4>Guest Housing</h4></div>
       <div class="plaque"><h4>Health &amp; Wellness Center</h4></div>
-      <div class="plaque"><h4>Library Roof</h4><p>Phase 1 &amp; 2</p></div>
+      <div class="plaque"><h4>Library Roof</h4></div>
     </div>
   </div>
 </section>

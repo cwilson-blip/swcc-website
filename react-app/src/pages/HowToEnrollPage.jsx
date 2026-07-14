@@ -18,37 +18,52 @@ export default function HowToEnrollPage() {
 
 <section className="section on-paper">
   <div className="container two-col">
-    <div className="prose">
-      <h2>Step 1 — Due Dates</h2>
-      <div className="def-grid">
-        <div><dt>Fall Semester</dt><dd>August 17</dd></div>
-        <div><dt>Spring Semester</dt><dd>January 10</dd></div>
-      </div>
-
-      <h2>Step 2 — Forms Required</h2>
-      <ul className="doc-list">
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ecf226ff444146489895e96ee545f949.pdf" target="_blank" rel="noopener">General Application <span className="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ad8c95e8a294416a8bd743e4382e937f.pdf" target="_blank" rel="noopener">Medical Record <span className="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_79b963539b324290b4409d1536ef2f65.pdf" target="_blank" rel="noopener">Academic Recommendation <span className="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_48f0f9cb321c4bf3b4734a79b12d9e41.pdf" target="_blank" rel="noopener">Character Recommendation <span className="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_08fbb8858b444d59832669d232388e4c.pdf" target="_blank" rel="noopener">Residence Hall Form <span className="tag">PDF</span></a></li>
-      </ul>
-      <p>Prefer to mail your forms? Send them to: Southwestern Christian College, P.O. Box 10, Terrell, TX 75160.</p>
-
-      <h2>Step 3 — Other Documents</h2>
-      <ul>
-        <li>Freshman applicants: official high school transcript(s)</li>
-        <li>Transfer applicants: transcripts from all colleges attended</li>
-        <li>Immunization record (copy of shot records)</li>
-        <li>A current photograph (2x2 preferred)</li>
-        <li>A 600-word typed essay — <a href="http://swcc.edu/2017Required_Essay_Question.pdf" target="_blank" rel="noopener">view the required essay question</a></li>
-        <li>Financial assistance: complete the <a href="https://studentaid.gov/h/apply-for-aid/fafsa" target="_blank" rel="noopener">FAFSA</a> using SwCC’s school code <strong>003618</strong></li>
-      </ul>
-
-      <h2>Step 4 — Application Fee & Dorm Deposit</h2>
-      <div className="def-grid">
-        <div><dt>Application Fee</dt><dd>$20, non-refundable</dd></div>
-        <div><dt>Dorm Room Deposit</dt><dd>$50, non-refundable</dd></div>
+    <div>
+      <div className="steps">
+        <div className="step">
+          <span className="step-num" aria-hidden="true"></span>
+          <div>
+            <h3>Submit Application</h3>
+            <p>Complete the <a href="https://www.swcc.edu/_files/ugd/0775cf_ecf226ff444146489895e96ee545f949.pdf" target="_blank" rel="noopener">General Application</a> and pay the $20 non-refundable application fee. Fall semester applications are due August 17; spring semester applications are due January 10.</p>
+          </div>
+        </div>
+        <div className="step">
+          <span className="step-num" aria-hidden="true"></span>
+          <div>
+            <h3>Submit Transcripts</h3>
+            <p>Freshman applicants: submit an official high school transcript. Transfer applicants: submit transcripts from all colleges attended.</p>
+          </div>
+        </div>
+        <div className="step">
+          <span className="step-num" aria-hidden="true"></span>
+          <div>
+            <h3>Complete FAFSA <span style={{color: 'var(--stone)', fontWeight: '400'}}>(Code: 003618)</span></h3>
+            <p>Apply for financial assistance using the <a href="https://studentaid.gov/h/apply-for-aid/fafsa" target="_blank" rel="noopener">FAFSA</a> and SwCC’s school code <strong>003618</strong>.</p>
+          </div>
+        </div>
+        <div className="step">
+          <span className="step-num" aria-hidden="true"></span>
+          <div>
+            <h3>Submit Enrollment Documents</h3>
+            <p>Complete your Medical Record, Academic Recommendation, Character Recommendation, and Residence Hall forms, along with an immunization record, a current 2x2 photograph, and the required 600-word essay.</p>
+            <ul className="doc-list" style={{marginTop: '14px'}}>
+              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ad8c95e8a294416a8bd743e4382e937f.pdf" target="_blank" rel="noopener">Medical Record <span className="tag">PDF</span></a></li>
+              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_79b963539b324290b4409d1536ef2f65.pdf" target="_blank" rel="noopener">Academic Recommendation <span className="tag">PDF</span></a></li>
+              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_48f0f9cb321c4bf3b4734a79b12d9e41.pdf" target="_blank" rel="noopener">Character Recommendation <span className="tag">PDF</span></a></li>
+              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_08fbb8858b444d59832669d232388e4c.pdf" target="_blank" rel="noopener">Residence Hall Form <span className="tag">PDF</span></a></li>
+              <li><a href="http://swcc.edu/2017Required_Essay_Question.pdf" target="_blank" rel="noopener">Required Essay Question <span className="tag">PDF</span></a></li>
+            </ul>
+            <p style={{marginTop: '14px'}}>Prefer to mail your forms? Send them to: Southwestern Christian College, P.O. Box 10, Terrell, TX 75160.</p>
+            <p>A $50 non-refundable dorm room deposit reserves your housing space.</p>
+          </div>
+        </div>
+        <div className="step">
+          <span className="step-num" aria-hidden="true"></span>
+          <div>
+            <h3>Visit Campus & Enroll</h3>
+            <p>Tour the campus, meet our faculty and staff, and complete your enrollment.</p>
+          </div>
+        </div>
       </div>
     </div>
     <aside className="side-card">

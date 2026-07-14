@@ -7,7 +7,7 @@ def add(filename, title, description, body):
     PAGES.append((filename, title, description, body))
 
 
-add("events.html", "Events", "Upcoming events at Southwestern Christian College: 2026 Graduation and the 2025 Lectureship.", f'''
+add("events.html", "Events", "Upcoming events at Southwestern Christian College: 2026 Graduation and the 2026 Lectureship.", f'''
 {plain_hero("Events", "Upcoming Events", "Milestones and traditions that bring the SwCC community together.")}
 <section class="section on-paper">
   <div class="container">
@@ -17,7 +17,7 @@ add("events.html", "Events", "Upcoming events at Southwestern Christian College:
         <p>Saturday, May 9 at 10:30am &mdash; Ben Foster, Jr. Memorial Chapel. Our 75th commencement exercise.</p>
       </a>
       <a class="apply-card" href="{LECTURESHIP_URL}" target="_blank" rel="noopener" style="display:flex;">
-        <h3>2025 Lectureship</h3>
+        <h3>2026 Lectureship</h3>
         <p>The 88th SwCC Lectureship, November 22&ndash;26, 2025. Worship, workshops, alumni events, and more.</p>
       </a>
     </div>

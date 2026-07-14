@@ -79,7 +79,7 @@ export const NAV = [
     href: "/events",
     children: [
       ["2026 Graduation", "/graduation"],
-      ["2025 Lectureship", LECTURESHIP_URL],
+      ["2026 Lectureship", LECTURESHIP_URL],
       ["Purchase Seats", PURCHASE_SEATS_URL],
     ],
   },

@@ -297,7 +297,6 @@ add("alumni.html", "Alumni", "The Southwestern Christian College National Alumni
   <div class="container two-col">
     <div class="prose">
       <p>The Southwestern Christian College National Alumni Association supports the college financially and charitably, and coordinates activities that keep graduates connected to the campus and to one another. It serves as the central alumni body, with its own leadership and administrative structure.</p>
-      <a class="btn btn-outline-dark" href="https://www.swccalumni.com" target="_blank" rel="noopener">Visit the Alumni Association</a>
     </div>
     <aside class="side-card">
       <h4>Stay Connected</h4>

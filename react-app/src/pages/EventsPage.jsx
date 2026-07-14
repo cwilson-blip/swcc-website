@@ -25,7 +25,7 @@ export default function EventsPage() {
         <p>Saturday, May 9 at 10:30am — Ben Foster, Jr. Memorial Chapel. Our 75th commencement exercise.</p>
       </Link>
       <a className="apply-card" href="https://www.swcclectureship.com/" target="_blank" rel="noopener" style={{display: 'flex'}}>
-        <h3>2025 Lectureship</h3>
+        <h3>2026 Lectureship</h3>
         <p>The 88th SwCC Lectureship, November 22–26, 2025. Worship, workshops, alumni events, and more.</p>
       </a>
     </div>
