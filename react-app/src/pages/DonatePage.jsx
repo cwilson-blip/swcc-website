@@ -27,7 +27,7 @@ export default function DonatePage() {
     <div className="callout" style={{marginTop: '8px'}}>
       <p><strong>Give by CashApp:</strong> $SWCCBUSINESS  ·  <strong>Mail a gift:</strong> 200 Bowser Circle, Terrell, Texas 75160</p>
     </div>
-    <a className="btn btn-brass" href="mailto:info@swcc.edu">Donate With PayPal</a>
+    <a className="btn btn-brass" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=kenny.fox@swcc.edu&currency_code=USD" target="_blank" rel="noopener">Donate With PayPal</a>
   </div>
 </section>
 

@@ -20,7 +20,7 @@ add("donate.html", "Donate", "Support Southwestern Christian College through gen
     <div class="callout" style="margin-top:8px;">
       <p><strong>Give by CashApp:</strong> $SWCCBUSINESS &nbsp;&middot;&nbsp; <strong>Mail a gift:</strong> 200 Bowser Circle, Terrell, Texas 75160</p>
     </div>
-    <a class="btn btn-brass" href="mailto:info@swcc.edu">Donate With PayPal</a>
+    <a class="btn btn-brass" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=kenny.fox@swcc.edu&amp;currency_code=USD" target="_blank" rel="noopener">Donate With PayPal</a>
   </div>
 </section>
 ''')
