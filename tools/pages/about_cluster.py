@@ -170,19 +170,16 @@ FACULTY = [
     ("Johnson Kisero", "Biology Professor", ""),
     ("Nathan Nwobi", "Mathematics Professor", ""),
     ("Dr. Walter Price", "Speech Professor", "professorprice@swcc.edu"),
-    ("Lyante Savala", "Adjunct Professor / Choral Director", ""),
 ]
 LEADERSHIP = [
     ("Dr. Barry Graham", "Interim Chief of Academic Affairs", "bgrah@swcc.edu"),
     ("Dr. Ben Foster", "Dean of Student Affairs", ""),
-    ("Dwayne Pugh", "Dean of Chapel &amp; Director of Recording Studio", ""),
     ("Dr. Eric Jackson", "Director of Admissions", ""),
 ]
 OPS = [
     ("Kecia Baker-Morris", "Registrar", ""),
     ("Alva Baker", "Accounts Payable Manager", ""),
     ("Vernesha Cathey", "Title III Director / Recruiter", ""),
-    ("Charles Hanks", "Director of Financial Aid", ""),
     ("Alma Hernandez", "Administrative Assistant to the President", ""),
     ("Drew Johnson", "Facilities Manager / Women&rsquo;s Dorm Supervisor", ""),
     ("Dr. Yalonda Coats", "Chief of Police", ""),
@@ -190,7 +187,6 @@ OPS = [
     ("Kenny Fox", "Assistant CFO", ""),
     ("Robert Morrow", "Food Service Manager / President&rsquo;s Special Assistant", ""),
     ("Gloria Rice", "School Operator / Admin. Assistant for Admissions", ""),
-    ("Dr. Stevie Roberts", "Men&rsquo;s Dorm Supervisor", ""),
     ("Lois Walker", "Administrative Assistant, Business Office", ""),
     ("Tomeka Wilson", "Comptroller", ""),
 ]

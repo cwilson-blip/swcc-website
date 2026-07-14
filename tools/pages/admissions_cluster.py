@@ -157,13 +157,34 @@ add("campus-housing.html", "Campus Housing", "Campus housing at Southwestern Chr
 ''')
 
 # ---------------------------------------------------------------- Tuition & Fees
-add("tuition-fees.html", "Tuition & Fees", "Cost of attendance at Southwestern Christian College, including tuition, fees, and financial aid options.", f'''
+add("tuition-fees.html", "Tuition & Fees", "Cost of attendance at Southwestern Christian College, including tuition, room and board, books, fees, and financial aid options.", f'''
 {plain_hero("Admissions", "Tuition &amp; Fees", "The full cost of attendance, and how financial aid can help close the gap.")}
 <section class="section on-paper">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Annual Cost</p>
+      <h2>Cost of Attendance</h2>
+      <p class="lede">A full academic year&rsquo;s cost, itemized by category, for students living on campus versus off campus with parents.</p>
+    </div>
+    <p class="scroll-hint">Swipe to see the full table &rarr;</p>
+    <div class="table-scroll">
+      <table class="info-table">
+        <thead><tr><th></th><th>On Campus</th><th>Off Campus w/ Parents</th></tr></thead>
+        <tbody>
+          <tr><td>Tuition and Fees</td><td>$14,396</td><td>$13,638</td></tr>
+          <tr><td>Books and Supplies</td><td>$1,500</td><td>$1,500</td></tr>
+          <tr><td>Room and Board</td><td>$7,042</td><td>$3,862</td></tr>
+          <tr><td>Other Expenses</td><td>$2,230</td><td>$1,000</td></tr>
+          <tr><td><strong>Total Cost</strong></td><td><strong>$25,168</strong></td><td><strong>$20,000</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+<section class="section on-surface">
   <div class="container two-col">
     <div class="prose">
-      <h2>Cost of Attendance</h2>
-      <p>Your full, itemized Cost of Attendance &mdash; tuition, room, board, and fees &mdash; is published each year. Request the current breakdown from the Office of Admissions, or start with financial aid to see what SwCC can offer toward your total cost.</p>
+      <h2>Fees &amp; Deposits</h2>
       <div class="def-grid">
         <div><dt>Application Fee</dt><dd>$20 (domestic), non-refundable</dd></div>
         <div><dt>International Application Fee</dt><dd>$100, non-refundable</dd></div>
