@@ -16,6 +16,13 @@ ATTR_RENAME = {
     "autofocus": "autoFocus",
     "crossorigin": "crossOrigin",
     "srcset": "srcSet",
+    "autoplay": "autoPlay",
+    "playsinline": "playsInline",
+}
+
+BOOLEAN_ATTRS = {
+    "autoplay", "muted", "loop", "playsinline", "disabled", "required",
+    "checked", "autofocus", "readonly",
 }
 
 
@@ -65,13 +72,17 @@ class JSXConverter(HTMLParser):
         is_link = False
         parts = []
         for name, value in attrs:
+            is_bool_flag = value is None
             if value is None:
                 value = ""
+            if is_bool_flag and name in BOOLEAN_ATTRS:
+                parts.append(ATTR_RENAME.get(name, name))
+                continue
             if name == "style":
                 parts.append(f"style={style_string_to_object(value)}")
                 continue
-            if name == "src" and tag == "img" and value.startswith("assets/"):
-                parts.append(f'src="/{value}"')
+            if name in ("src", "poster") and tag in ("img", "video", "source") and value.startswith("assets/"):
+                parts.append(f'{name}="/{value}"')
                 continue
             if name == "href" and tag == "a":
                 kind, route = rewrite_href(value)
