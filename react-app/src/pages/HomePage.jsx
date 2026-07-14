@@ -102,11 +102,11 @@ export default function HomePage() {
           <figcaption><span>Chapel & Spiritual Development</span></figcaption>
         </Link>
       </figure>
-      <figure className="mosaic-item mosaic-wide">
-        <Link className="mosaic-link" to="/programs">
+      <figure className="mosaic-item mosaic-wide mosaic-item-static">
+        <div className="mosaic-link">
           <img src="/assets/images/campus/coronation-formal-event.jpg" alt="Student leadership coronation ceremony" />
           <figcaption><span>Leadership Opportunities</span></figcaption>
-        </Link>
+        </div>
       </figure>
       <figure className="mosaic-item">
         <Link className="mosaic-link" to="/alumni">
@@ -114,11 +114,11 @@ export default function HomePage() {
           <figcaption><span>Community Service</span></figcaption>
         </Link>
       </figure>
-      <figure className="mosaic-item">
-        <Link className="mosaic-link" to="/academics">
+      <figure className="mosaic-item mosaic-item-static">
+        <div className="mosaic-link">
           <img src="/assets/images/campus/classroom-teaching.jpg" alt="Students in a computer science classroom" />
           <figcaption><span>Study Abroad Opportunities</span></figcaption>
-        </Link>
+        </div>
       </figure>
     </div>
   </div>

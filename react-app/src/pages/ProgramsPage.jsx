@@ -23,7 +23,7 @@ export default function ProgramsPage() {
 
 <section className="section on-paper">
   <div className="container">
-    <div className="grid grid-4 plaque-grid">
+    <div className="grid grid-2 plaque-grid">
       <a className="plaque" href="https://www.swccramathletics.com/landing/index" target="_blank" rel="noopener" style={{display: 'block'}}>
         <h4>Athletics</h4>
         <p>NJCAA Region 5 basketball, volleyball, track & field, soccer, and cross country.</p>
@@ -32,14 +32,6 @@ export default function ProgramsPage() {
         <h4>A Cappella Chorus</h4>
         <p>Campus social life through music, friendship, and performance.</p>
       </Link>
-      <div className="plaque">
-        <h4>Student Government</h4>
-        <p>Student-led leadership and campus advocacy.</p>
-      </div>
-      <div className="plaque">
-        <h4>Cheerleading & Class Organizations</h4>
-        <p>Spirit, intramural sports, and class-level community.</p>
-      </div>
     </div>
   </div>
 </section>

@@ -28,6 +28,7 @@ NAV = [
         ("Preview Day 2026", "preview-day.html"),
         ("Admissions (International)", "admissions-international.html"),
         ("Next Steps for Admitted RAMs", "admitted-next-steps.html"),
+        ("Transcript Request", "transcript-request.html"),
     ]),
     ("Financial Aid", "financial-aid.html", [
         ("Financial Aid Office", "financial-aid.html"),
@@ -70,6 +71,7 @@ NAV = [
         ("Center for Student Success", "student-success.html"),
         ("Campus Renovations", "campus-renovations.html"),
         ("Campus Safety", "campus-safety.html"),
+        ("Transcript Request", "transcript-request.html"),
     ]),
 ]
 

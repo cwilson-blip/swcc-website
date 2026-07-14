@@ -105,11 +105,11 @@ def body():
           <figcaption><span>Chapel &amp; Spiritual Development</span></figcaption>
         </a>
       </figure>
-      <figure class="mosaic-item mosaic-wide">
-        <a class="mosaic-link" href="programs.html">
+      <figure class="mosaic-item mosaic-wide mosaic-item-static">
+        <div class="mosaic-link">
           <img src="assets/images/campus/coronation-formal-event.jpg" alt="Student leadership coronation ceremony">
           <figcaption><span>Leadership Opportunities</span></figcaption>
-        </a>
+        </div>
       </figure>
       <figure class="mosaic-item">
         <a class="mosaic-link" href="alumni.html">
@@ -117,11 +117,11 @@ def body():
           <figcaption><span>Community Service</span></figcaption>
         </a>
       </figure>
-      <figure class="mosaic-item">
-        <a class="mosaic-link" href="academics.html">
+      <figure class="mosaic-item mosaic-item-static">
+        <div class="mosaic-link">
           <img src="assets/images/campus/classroom-teaching.jpg" alt="Students in a computer science classroom">
           <figcaption><span>Study Abroad Opportunities</span></figcaption>
-        </a>
+        </div>
       </figure>
     </div>
   </div>

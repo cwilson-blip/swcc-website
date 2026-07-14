@@ -7,11 +7,11 @@ def add(filename, title, description, body):
     PAGES.append((filename, title, description, body))
 
 
-add("programs.html", "Campus Life & Programs", "Campus life and student organizations at Southwestern Christian College — athletics, chorus, Student Government, and more.", f'''
+add("programs.html", "Campus Life & Programs", "Campus life and student organizations at Southwestern Christian College — athletics and A Cappella Chorus.", f'''
 {photo_hero("Programs", "Campus Life &amp; Programs", "A choice of clubs and organizations for your pleasure and on-campus networking.", "assets/images/campus/gym-community-event.jpg", "Community gathering in the campus gymnasium")}
 <section class="section on-paper">
   <div class="container">
-    <div class="grid grid-4 plaque-grid">
+    <div class="grid grid-2 plaque-grid">
       <a class="plaque" href="{ATHLETICS_URL}" target="_blank" rel="noopener" style="display:block;">
         <h4>Athletics</h4>
         <p>NJCAA Region 5 basketball, volleyball, track &amp; field, soccer, and cross country.</p>
@@ -20,14 +20,6 @@ add("programs.html", "Campus Life & Programs", "Campus life and student organiza
         <h4>A Cappella Chorus</h4>
         <p>Campus social life through music, friendship, and performance.</p>
       </a>
-      <div class="plaque">
-        <h4>Student Government</h4>
-        <p>Student-led leadership and campus advocacy.</p>
-      </div>
-      <div class="plaque">
-        <h4>Cheerleading &amp; Class Organizations</h4>
-        <p>Spirit, intramural sports, and class-level community.</p>
-      </div>
     </div>
   </div>
 </section>

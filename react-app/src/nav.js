@@ -31,6 +31,7 @@ export const NAV = [
       ["Preview Day 2026", "/preview-day"],
       ["Admissions (International)", "/admissions-international"],
       ["Next Steps for Admitted RAMs", "/admitted-next-steps"],
+      ["Transcript Request", "/transcript-request"],
     ],
   },
   {
@@ -97,6 +98,7 @@ export const NAV = [
       ["Center for Student Success", "/student-success"],
       ["Campus Renovations", "/campus-renovations"],
       ["Campus Safety", "/campus-safety"],
+      ["Transcript Request", "/transcript-request"],
     ],
   },
 ];

@@ -491,6 +491,8 @@ body.nav-locked { overflow: hidden; }
   content: "\2197"; opacity: 0.75; transition: transform 0.25s ease, opacity 0.25s ease;
 }
 .mosaic-item:hover figcaption::after { transform: translate(2px, -2px); opacity: 1; }
+.mosaic-item-static figcaption::after { content: none; }
+.mosaic-item-static:hover img { transform: none; }
 
 .rampass-section { background: var(--ink); }
 .rampass-grid { display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 64px; align-items: center; }
