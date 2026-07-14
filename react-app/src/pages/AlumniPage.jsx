@@ -8,18 +8,19 @@ export default function AlumniPage() {
   return (
     <>
 
-<section className="page-hero">
-  <div className="hero-media">
-    <img src="/assets/images/campus/hbcu-congratulations-group.jpg" alt="Alumni and community members celebrating together" />
-    <div className="hero-scrim"></div>
-  </div>
-  <div className="container page-hero-inner">
-    <p className="eyebrow eyebrow-invert">Alumni</p>
+<section className="page-hero-plain">
+  <div className="container">
+    <p className="eyebrow eyebrow-invert">About SwCC</p>
     <h1>Alumni</h1>
-    <p className="lede hero-lede">A community of RAMs stays connected long after graduation.</p>
+    <p className="lede">A community of RAMs stays connected long after graduation.</p>
   </div>
 </section>
 
+<section className="section section-tight on-surface">
+  <div className="container banner-figure">
+    <img src="/assets/images/campus/alumni-gathering.jpg" alt="SwCC alumni and community members gathered together" />
+  </div>
+</section>
 <section className="section on-paper">
   <div className="container two-col">
     <div className="prose">

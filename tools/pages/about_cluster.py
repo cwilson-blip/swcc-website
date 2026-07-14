@@ -287,7 +287,12 @@ add("videos.html", "Videos", "Watch SwCC chapel services and campus life on the 
 
 # ---------------------------------------------------------------- Alumni
 add("alumni.html", "Alumni", "The Southwestern Christian College National Alumni Association supports and connects SwCC graduates.", f'''
-{photo_hero("Alumni", "Alumni", "A community of RAMs stays connected long after graduation.", "assets/images/campus/hbcu-congratulations-group.jpg", "Alumni and community members celebrating together")}
+{plain_hero("About SwCC", "Alumni", "A community of RAMs stays connected long after graduation.")}
+<section class="section section-tight on-surface">
+  <div class="container banner-figure">
+    <img src="assets/images/campus/alumni-gathering.jpg" alt="SwCC alumni and community members gathered together">
+  </div>
+</section>
 <section class="section on-paper">
   <div class="container two-col">
     <div class="prose">
