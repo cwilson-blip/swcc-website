@@ -898,7 +898,7 @@ body.nav-locked { overflow: hidden; }
 
 .cj-diff { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 72px; align-items: start; }
 .cj-diff-aside { position: sticky; top: 160px; }
-.cj-poster-small { margin: 34px 0 0; max-width: 375px; }
+.cj-poster-small { margin: 34px 0 0; max-width: 520px; }
 .cj-poster-small img { width: 100%; height: auto; border-radius: var(--radius-sm); box-shadow: var(--shadow-card); }
 .cj-diff-list article { padding: 30px 0; border-bottom: 1px solid var(--line); }
 .cj-diff-list article:first-child { padding-top: 0; }
@@ -939,4 +939,70 @@ body.nav-locked { overflow: hidden; }
   .cj-motto { font-size: 0.76rem; letter-spacing: 0.16em; }
   .cj-motto li + li::before { margin: 0 11px; }
   .cj-commitment .btn-row .btn { width: 100%; justify-content: center; }
+}
+
+/* =================================================================
+   Upper Room Studios page
+   Signature: the gear list set like a studio tech rider — condensed
+   channel-label headings over hairline-ruled rows on deep navy.
+   ================================================================= */
+
+.studio-intro { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 64px; align-items: start; }
+.studio-intro h2 { margin-top: 14px; }
+
+.studio-rider { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line-on-dark); }
+.studio-rider-col { padding: 26px 26px 8px 0; }
+.studio-rider-col + .studio-rider-col { border-left: 1px solid var(--line-on-dark); padding-left: 26px; }
+.studio-rider h3 {
+  font-family: var(--font-label); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--brass); margin-bottom: 14px;
+}
+.studio-rider ul { list-style: none; margin: 0; padding: 0; }
+.studio-rider li {
+  font-family: var(--font-display); font-size: 1.3rem; font-weight: 500; color: #fff;
+  padding: 10px 0; border-bottom: 1px solid var(--line-on-dark); line-height: 1.25;
+}
+.studio-rider li:last-child { border-bottom: none; }
+.studio-rider .studio-more { font-style: italic; color: rgba(255,255,255,0.6); font-size: 1.1rem; }
+
+.studio-gallery .mosaic-item figcaption { background: linear-gradient(0deg, rgba(17,22,42,0.85), transparent); }
+
+.studio-rates { margin: 30px 0 0; border-top: 2px solid var(--ink); }
+.studio-rates > div {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 20px;
+  padding: 18px 0; border-bottom: 1px solid var(--line);
+}
+.studio-rates dt {
+  font-family: var(--font-label); font-size: 0.82rem; font-weight: 500; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--stone);
+}
+.studio-rates dd { margin: 0; font-family: var(--font-display); font-size: 2.3rem; font-weight: 700; color: var(--ink); line-height: 1; }
+.studio-note { margin-top: 16px; font-style: italic; }
+.studio-packages-title { margin: 40px 0 10px; font-size: 1.3rem; }
+.studio-packages { list-style: none; margin: 14px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.studio-packages li {
+  font-family: var(--font-label); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--ink); border: 1.5px solid var(--brass); border-radius: 2px; padding: 8px 14px;
+}
+
+.studio-rates-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 64px; align-items: center; }
+.studio-postcard { margin: 0; }
+.studio-postcard img { width: 100%; height: auto; border-radius: var(--radius-sm); box-shadow: 0 30px 60px -28px rgba(17,22,42,0.5); }
+
+@media (max-width: 980px) {
+  .studio-rider { grid-template-columns: 1fr 1fr; }
+  .studio-rider-col:nth-child(3) { border-left: none; padding-left: 0; }
+  .studio-rider-col:nth-child(n+3) { border-top: 1px solid var(--line-on-dark); }
+}
+
+@media (max-width: 860px) {
+  .studio-intro { grid-template-columns: 1fr; gap: 20px; }
+  .studio-rates-grid { grid-template-columns: 1fr; gap: 44px; }
+}
+
+@media (max-width: 560px) {
+  .studio-rider { grid-template-columns: 1fr; }
+  .studio-rider-col, .studio-rider-col + .studio-rider-col { border-left: none; padding-left: 0; }
+  .studio-rider-col + .studio-rider-col { border-top: 1px solid var(--line-on-dark); }
+  .studio-rates dd { font-size: 1.9rem; }
 }

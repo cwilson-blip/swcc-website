@@ -7,14 +7,18 @@ def add(filename, title, description, body):
     PAGES.append((filename, title, description, body))
 
 
-add("programs.html", "Campus Life & Programs", "Programs and campus life at Southwestern Christian College — Criminal Justice, athletics, and the A Cappella Chorus.", f'''
+add("programs.html", "Campus Life & Programs", "Programs and campus life at Southwestern Christian College — Criminal Justice, the Upper Room Studios, athletics, and the A Cappella Chorus.", f'''
 {photo_hero("Programs", "Campus Life &amp; Programs", "A choice of clubs and organizations for your pleasure and on-campus networking.", "assets/images/campus/gym-community-event.jpg", "Community gathering in the campus gymnasium")}
 <section class="section on-paper">
   <div class="container">
-    <div class="grid grid-3 plaque-grid">
+    <div class="grid grid-2 plaque-grid">
       <a class="plaque" href="criminal-justice.html" style="display:block;">
         <h4>Criminal Justice</h4>
         <p>An associate degree preparing ethical, faith-grounded leaders for careers in public service.</p>
+      </a>
+      <a class="plaque" href="studio.html" style="display:block;">
+        <h4>The Upper Room Studios</h4>
+        <p>A hybrid recording facility built around an SSL Origin 32 console, open for booked sessions.</p>
       </a>
       <a class="plaque" href="{ATHLETICS_URL}" target="_blank" rel="noopener" style="display:block;">
         <h4>Athletics</h4>
@@ -239,6 +243,126 @@ add("criminal-justice.html", "Criminal Justice", "Earn an Associate Degree in Cr
       <a class="btn btn-outline-dark" href="how-to-enroll.html">How To Enroll</a>
       <a class="btn btn-outline-dark" href="contact.html">Contact Admissions</a>
     </div>
+  </div>
+</section>
+''')
+
+add("studio.html", "The Upper Room Studios", "The Upper Room Studios at Southwestern Christian College — a hybrid recording facility built around an SSL Origin 32 console. Hourly and session-block rates, every session with a professional engineer.", f'''
+{photo_hero("Programs &middot; Recording Studio", "The Upper Room Studios", "A hybrid recording facility at Southwestern Christian College, built around an SSL Origin 32 console. Every session includes a professional engineer.", "assets/images/campus/studio-ssl-console.jpg", "The SSL Origin 32 console and Genelec monitors in the Upper Room Studios control room")}
+
+<section class="section on-paper">
+  <div class="container studio-intro">
+    <div>
+      <p class="eyebrow">Hybrid Recording Facility</p>
+      <h2>Analog warmth, digital reach.</h2>
+    </div>
+    <div>
+      <p class="lede">The Upper Room pairs a 32-channel SSL analog console and a rack of classic outboard gear with Pro Tools, Luna, and Logic &mdash; so a session can move freely between hardware and the box.</p>
+      <p>Production packages are available for songwriters, producers, vocalists, and musicians.</p>
+      <div class="btn-row" style="margin-top:26px;">
+        <a class="btn btn-brass" href="contact.html">Book a Session</a>
+        <a class="btn btn-outline-dark" href="#studio-rates">See Rates</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section on-deep">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">In the Room</p>
+      <h2>The gear list.</h2>
+    </div>
+    <div class="studio-rider">
+      <div class="studio-rider-col">
+        <h3>Equipment</h3>
+        <ul>
+          <li>SSL Origin 32 Console</li>
+          <li>SSL UF8 Controller</li>
+        </ul>
+      </div>
+      <div class="studio-rider-col">
+        <h3>Monitoring</h3>
+        <ul>
+          <li>Genelec with sub</li>
+          <li>Avantone CLA-10</li>
+        </ul>
+      </div>
+      <div class="studio-rider-col">
+        <h3>Outboard Gear</h3>
+        <ul>
+          <li>Neve</li>
+          <li>Bettermaker</li>
+          <li>Purple Audio</li>
+          <li>SSL</li>
+          <li>Manley</li>
+          <li class="studio-more">and more&hellip;</li>
+        </ul>
+      </div>
+      <div class="studio-rider-col">
+        <h3>DAWs</h3>
+        <ul>
+          <li>Pro Tools</li>
+          <li>Luna</li>
+          <li>Logic</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section on-paper">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Take a Look</p>
+      <h2>Inside the control room.</h2>
+    </div>
+    <div class="mosaic studio-gallery">
+      <figure class="mosaic-item mosaic-item-static mosaic-wide">
+        <img src="assets/images/campus/studio-engineer-view.jpg" alt="The engineer&rsquo;s view across the SSL console toward the client seating area" loading="lazy">
+        <figcaption>The engineer&rsquo;s seat</figcaption>
+      </figure>
+      <figure class="mosaic-item mosaic-item-static">
+        <img src="assets/images/campus/studio-control-room-front.jpg" alt="Control room with the console, Genelec monitors, and the window into the live room" loading="lazy">
+        <figcaption>Console &amp; live-room window</figcaption>
+      </figure>
+      <figure class="mosaic-item mosaic-item-static">
+        <img src="assets/images/campus/studio-ssl-console.jpg" alt="Angled view of the SSL Origin 32 console and UF8 controller" loading="lazy">
+        <figcaption>SSL Origin 32</figcaption>
+      </figure>
+      <figure class="mosaic-item mosaic-item-static">
+        <img src="assets/images/campus/studio-control-room-side.jpg" alt="Client table and seating beside the console" loading="lazy">
+        <figcaption>Client seating</figcaption>
+      </figure>
+      <figure class="mosaic-item mosaic-item-static">
+        <img src="assets/images/campus/studio-control-room-rear.jpg" alt="Rear of the control room with acoustic panels and lounge chair" loading="lazy">
+        <figcaption>Treated for accurate listening</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section on-surface" id="studio-rates">
+  <div class="container studio-rates-grid">
+    <div>
+      <p class="eyebrow">Studio Rates</p>
+      <h2 style="margin-top:14px;">Book by the hour or the block.</h2>
+      <dl class="studio-rates">
+        <div><dt>Hourly rate</dt><dd>$90</dd></div>
+        <div><dt>Session block &middot; 4 hours</dt><dd>$350</dd></div>
+        <div><dt>Session block &middot; 8 hours</dt><dd>$700</dd></div>
+      </dl>
+      <p class="studio-note">All sessions include a professional engineer.</p>
+      <h3 class="studio-packages-title">Production Packages</h3>
+      <p>Production packages are available that include:</p>
+      <ul class="studio-packages">
+        <li>Songwriters</li><li>Producers</li><li>Vocalists</li><li>Musicians</li>
+      </ul>
+      <a class="btn btn-brass" href="contact.html" style="margin-top:34px;">Book a Session</a>
+    </div>
+    <figure class="studio-postcard">
+      <img src="assets/images/campus/studio-postcard-front.jpg" alt="Upper Room Studios postcard: Southwestern Christian College and The Upper Room Studios logos over a close-up of console knobs" loading="lazy">
+    </figure>
   </div>
 </section>
 ''')

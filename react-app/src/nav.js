@@ -61,6 +61,7 @@ export const NAV = [
     children: [
       ["Campus Life & Programs", "/programs"],
       ["Criminal Justice", "/criminal-justice"],
+      ["Studio", "/studio"],
       ["Athletics", ATHLETICS_URL],
       ["A Cappella Chorus", "/chorus"],
       ["Career Opportunities", "/career"],

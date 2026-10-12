@@ -23,10 +23,14 @@ export default function ProgramsPage() {
 
 <section className="section on-paper">
   <div className="container">
-    <div className="grid grid-3 plaque-grid">
+    <div className="grid grid-2 plaque-grid">
       <Link className="plaque" to="/criminal-justice" style={{display: 'block'}}>
         <h4>Criminal Justice</h4>
         <p>An associate degree preparing ethical, faith-grounded leaders for careers in public service.</p>
+      </Link>
+      <Link className="plaque" to="/studio" style={{display: 'block'}}>
+        <h4>The Upper Room Studios</h4>
+        <p>A hybrid recording facility built around an SSL Origin 32 console, open for booked sessions.</p>
       </Link>
       <a className="plaque" href="https://www.swccramathletics.com/landing/index" target="_blank" rel="noopener" style={{display: 'block'}}>
         <h4>Athletics</h4>

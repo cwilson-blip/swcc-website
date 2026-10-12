@@ -46,6 +46,7 @@ NAV = [
     ("Programs", "programs.html", [
         ("Campus Life & Programs", "programs.html"),
         ("Criminal Justice", "criminal-justice.html"),
+        ("Studio", "studio.html"),
         ("Athletics", ATHLETICS_URL),
         ("A Cappella Chorus", "chorus.html"),
         ("Career Opportunities", "career.html"),

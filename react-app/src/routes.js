@@ -27,6 +27,7 @@ const OnlineClassesPage = lazy(() => import("./pages/OnlineClassesPage.jsx"));
 const AcademicCatalogsPage = lazy(() => import("./pages/AcademicCatalogsPage.jsx"));
 const ProgramsPage = lazy(() => import("./pages/ProgramsPage.jsx"));
 const CriminalJusticePage = lazy(() => import("./pages/CriminalJusticePage.jsx"));
+const StudioPage = lazy(() => import("./pages/StudioPage.jsx"));
 const ChorusPage = lazy(() => import("./pages/ChorusPage.jsx"));
 const CareerPage = lazy(() => import("./pages/CareerPage.jsx"));
 const InitiativesPage = lazy(() => import("./pages/InitiativesPage.jsx"));
@@ -81,6 +82,7 @@ export const routes = [
   { path: "/academic-catalogs", Component: AcademicCatalogsPage },
   { path: "/programs", Component: ProgramsPage },
   { path: "/criminal-justice", Component: CriminalJusticePage },
+  { path: "/studio", Component: StudioPage },
   { path: "/chorus", Component: ChorusPage },
   { path: "/career", Component: CareerPage },
   { path: "/initiatives", Component: InitiativesPage },
