@@ -825,3 +825,118 @@ body.nav-locked { overflow: hidden; }
 @media (max-width: 640px) {
   .search-overlay { padding: 84px 14px 14px; }
 }
+
+/* =================================================================
+   Criminal Justice program page
+   Signature: the campaign poster rising out of the navy hero, with the
+   program's own Learn / Lead / Serve / Protect motto set in brass caps.
+   ================================================================= */
+
+.cj-hero { padding-bottom: 210px; }
+.cj-tagline {
+  font-family: var(--font-display); font-size: clamp(1.3rem, 2.4vw, 1.85rem); font-weight: 500;
+  color: #fff; max-width: none; margin-top: 18px; line-height: 1.25;
+}
+.cj-tagline em { font-style: italic; color: var(--brass); }
+.cj-motto {
+  list-style: none; margin: 26px 0 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center;
+  gap: 8px 0; font-family: var(--font-label); font-size: 0.86rem; font-weight: 500;
+  letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.82);
+}
+.cj-motto li { display: inline-flex; align-items: center; }
+.cj-motto li + li::before {
+  content: ""; width: 6px; height: 6px; background: var(--brass); transform: rotate(45deg);
+  margin: 0 18px;
+}
+
+.cj-poster-band { background: linear-gradient(180deg, var(--ink) 0 170px, var(--paper) 170px); }
+.cj-poster { margin: -170px auto 0; max-width: 1080px; position: relative; }
+.cj-poster img {
+  width: 100%; height: auto; border-radius: var(--radius-sm);
+  box-shadow: 0 34px 70px -28px rgba(17,22,42,0.55);
+  outline: 1px solid rgba(195,154,70,0.55); outline-offset: 8px;
+}
+.cj-intro { padding-top: 96px; }
+.cj-intro .side-card .btn + .btn { margin-top: 10px; }
+
+.cj-split { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 72px; align-items: start; }
+
+.cj-ruled { list-style: none; margin: 0; padding: 0; }
+.cj-ruled li {
+  padding: 15px 0 15px 22px; border-bottom: 1px solid var(--line); position: relative; color: var(--ink);
+}
+.cj-ruled li::before {
+  content: ""; position: absolute; left: 0; top: 26px; width: 10px; height: 2px; background: var(--brass);
+}
+.cj-ruled-2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 36px; }
+.cj-ruled-dark li { color: rgba(255,255,255,0.9); border-color: var(--line-on-dark); }
+.cj-pull {
+  margin-top: 30px; padding-left: 20px; border-left: 3px solid var(--brass);
+  font-family: var(--font-display); font-style: italic; font-size: 1.25rem; line-height: 1.45;
+}
+.on-dark .cj-pull { color: #fff; }
+
+.cj-terms {
+  list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr);
+  border-top: 2px solid var(--ink);
+}
+.cj-terms li {
+  font-family: var(--font-display); font-size: 1.3rem; font-weight: 500; color: var(--ink);
+  padding: 20px 18px 20px 0; border-bottom: 1px solid var(--line);
+}
+.cj-note { margin-top: 30px; font-style: italic; }
+
+.cj-careers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
+.cj-careers h3 {
+  font-family: var(--font-label); font-size: 0.82rem; font-weight: 600; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--brass-dim); padding-bottom: 12px; border-bottom: 2px solid var(--brass);
+}
+.cj-careers ul { list-style: none; margin: 0; padding: 0; }
+.cj-careers li { padding: 11px 0; border-bottom: 1px solid var(--line); font-weight: 500; color: var(--ink); }
+.cj-transfer { margin-top: 48px; background: var(--surface); }
+.cj-transfer p { max-width: 80ch; }
+
+.cj-diff { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 72px; align-items: start; }
+.cj-diff-aside { position: sticky; top: 160px; }
+.cj-poster-small { margin: 34px 0 0; max-width: 375px; }
+.cj-poster-small img { width: 100%; height: auto; border-radius: var(--radius-sm); box-shadow: var(--shadow-card); }
+.cj-diff-list article { padding: 30px 0; border-bottom: 1px solid var(--line); }
+.cj-diff-list article:first-child { padding-top: 0; }
+.cj-diff-list article:last-child { border-bottom: none; }
+.cj-diff-list h3 { margin-bottom: 12px; }
+
+.cj-checks { margin: 0; }
+.cj-checks li { padding-bottom: 12px; border-bottom: 1px solid var(--line-on-dark); }
+
+.cj-commitment .container { max-width: 940px; }
+.cj-commitment blockquote {
+  font-family: var(--font-display); font-size: clamp(1.8rem, 3.6vw, 2.9rem); font-weight: 500; font-style: italic;
+  line-height: 1.2; color: var(--ink); margin: 20px 0 30px;
+}
+.cj-commitment-body { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-bottom: 36px; }
+.cj-commitment-body p { max-width: none; }
+
+@media (max-width: 980px) {
+  .cj-terms, .cj-careers { grid-template-columns: repeat(2, 1fr); }
+  .cj-careers { gap: 36px 28px; }
+}
+
+@media (max-width: 860px) {
+  .cj-hero { padding-bottom: 120px; }
+  .cj-poster-band { background: linear-gradient(180deg, var(--ink) 0 90px, var(--paper) 90px); }
+  .cj-poster { margin-top: -90px; }
+  .cj-poster img { outline-offset: 5px; }
+  .cj-intro { padding-top: 64px; }
+  .cj-split, .cj-diff { grid-template-columns: 1fr; gap: 36px; }
+  .cj-diff-aside { position: static; }
+  .cj-commitment-body { grid-template-columns: 1fr; gap: 0; }
+}
+
+@media (max-width: 560px) {
+  .cj-ruled-2 { grid-template-columns: 1fr; }
+  .cj-terms li { font-size: 1.1rem; }
+  .cj-careers { grid-template-columns: 1fr; }
+  .cj-motto { font-size: 0.76rem; letter-spacing: 0.16em; }
+  .cj-motto li + li::before { margin: 0 11px; }
+  .cj-commitment .btn-row .btn { width: 100%; justify-content: center; }
+}
