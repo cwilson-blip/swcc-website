@@ -21,7 +21,7 @@ ATTR_RENAME = {
 }
 
 BOOLEAN_ATTRS = {
-    "autoplay", "muted", "loop", "playsinline", "disabled", "required",
+    "autoplay", "muted", "loop", "playsinline", "controls", "disabled", "required",
     "checked", "autofocus", "readonly",
 }
 
@@ -45,6 +45,9 @@ def rewrite_href(value):
         return None, value
     if value.startswith("#"):
         return None, value
+    if value.startswith("assets/"):
+        # static file (e.g. a PDF) — a plain link, not a router route
+        return None, "/" + value
     # internal link, possibly with a hash fragment
     path, _, frag = value.partition("#")
     if path in ("", "index.html"):
@@ -91,7 +94,7 @@ class JSXConverter(HTMLParser):
                     parts.append(f'to="{route}"')
                     continue
                 else:
-                    parts.append(f'href="{value}"')
+                    parts.append(f'href="{route}"')
                     continue
             if name in ("onclick", "onsubmit") and value.strip() == "return false;":
                 evt = "onClick" if name == "onclick" else "onSubmit"
