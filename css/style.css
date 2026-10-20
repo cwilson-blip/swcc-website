@@ -1037,3 +1037,81 @@ body.nav-locked { overflow: hidden; }
   .chorus-feature { grid-template-columns: 1fr; gap: 24px; }
   .chorus-pair { grid-template-columns: 1fr; gap: 44px; margin-top: 52px; padding-top: 44px; }
 }
+
+/* =================================================================
+   Student Achievement data
+   Five-year tables set like a printed report: navy rule on top,
+   tabular figures, row labels in the display face.
+   ================================================================= */
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+.sa-mission { margin-bottom: 72px; max-width: 70ch; }
+
+.sa-goals { display: flex; flex-direction: column; border-top: 2px solid var(--ink); }
+.sa-goal { display: grid; grid-template-columns: 260px 1fr; gap: 48px; padding: 34px 0; border-bottom: 1px solid var(--line); align-items: start; }
+.sa-goal h3 { font-size: 1.2rem; margin-bottom: 10px; }
+.sa-goal p { max-width: 68ch; }
+.sa-stat { display: flex; flex-direction: column; gap: 4px; }
+.sa-stat-label {
+  font-family: var(--font-label); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--stone);
+}
+.sa-stat-num { font-family: var(--font-display); font-size: clamp(3.4rem, 6vw, 4.6rem); font-weight: 700; color: var(--ink); line-height: 1; }
+
+.sa-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.sa-table thead th {
+  font-family: var(--font-label); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--stone); text-align: right; padding: 12px 10px;
+  border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); vertical-align: bottom;
+}
+.sa-table thead th:first-child { text-align: left; padding-left: 0; }
+.sa-table tbody th {
+  text-align: left; font-family: var(--font-display); font-weight: 600; font-size: 1rem; color: var(--ink);
+  padding: 13px 10px 13px 0; border-bottom: 1px solid var(--line);
+}
+.sa-table td { text-align: right; padding: 13px 10px; border-bottom: 1px solid var(--line); color: var(--ink); font-size: 1rem; }
+.sa-table td:last-child, .sa-table thead th:last-child { padding-right: 0; }
+.sa-table thead th:nth-child(2), .sa-table td:nth-of-type(1) { color: var(--ink); font-weight: 600; }
+.sa-table thead th:nth-child(2) { color: var(--brass-dim); }
+
+.sa-overall { margin-bottom: 80px; }
+.sa-overall .sa-table tbody th { font-size: 1.15rem; }
+.sa-overall .sa-table td { font-size: 1.15rem; }
+
+.sa-programs { display: grid; grid-template-columns: 1fr 1fr; gap: 56px 64px; }
+.sa-program h3 { font-size: 1.3rem; margin-bottom: 14px; }
+
+.sa-race { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; }
+.sa-race .sa-table tbody th { font-family: var(--font-body); font-weight: 500; font-size: 0.95rem; }
+
+.sa-reports { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; }
+.sa-report { margin: 0; }
+.sa-report > a { display: block; border-radius: var(--radius-sm); overflow: hidden; box-shadow: var(--shadow-card); transition: transform 0.2s ease; }
+.sa-report > a:hover { transform: translateY(-3px); }
+.sa-report img { width: 100%; height: auto; aspect-ratio: 791 / 1024; object-fit: cover; }
+.sa-report figcaption { display: flex; flex-direction: column; gap: 12px; margin-top: 16px; }
+.sa-report figcaption span { font-family: var(--font-display); font-weight: 600; color: var(--ink); line-height: 1.3; }
+.sa-report .btn { align-self: flex-start; padding: 11px 20px; }
+
+@media (max-width: 1100px) {
+  .sa-programs, .sa-race { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 860px) {
+  .sa-goal { grid-template-columns: 1fr; gap: 14px; }
+  .sa-reports { grid-template-columns: 1fr 1fr; gap: 28px 20px; }
+  .sa-mission { margin-bottom: 52px; }
+}
+
+@media (max-width: 560px) {
+  .sa-table thead th { font-size: 0.6rem; letter-spacing: 0.02em; padding: 10px 4px; }
+  .sa-table thead th:first-child { width: 30%; }
+  .sa-table td { font-size: 0.86rem; padding: 11px 4px; }
+  .sa-table tbody th { font-size: 0.84rem; padding: 11px 4px 11px 0; }
+  .sa-overall .sa-table tbody th, .sa-overall .sa-table td { font-size: 0.92rem; }
+  .sa-race .sa-table tbody th { font-size: 0.8rem; }
+}
