@@ -104,7 +104,7 @@ _report_cards = "\n".join(
 
 
 add("student-achievement.html", "Student Achievement", "Student achievement data for Southwestern Christian College — graduation and retention rates by year, program, and race, plus IPEDS Data Feedback Reports 2021–2024.", f'''
-{photo_hero("Student Achievement", "Student Achievement", "A holistic educational program that motivates students to value and achieve academic excellence within a commitment to moral and spiritual values.", "assets/images/campus/graduation-candid-rows.jpg", "Graduates seated together at commencement")}
+{photo_hero("Academics", "Student Achievement", "A holistic educational program that motivates students to value and achieve academic excellence within a commitment to moral and spiritual values.", "assets/images/campus/graduation-candid-rows.jpg", "Graduates seated together at commencement")}
 <section class="section on-paper">
   <div class="container">
     <p class="lede sa-mission">Our mission is to offer a holistic educational program that motivates our students to value and achieve academic excellence within the context of commitment to moral and spiritual values &mdash; and to prepare future leaders in distinct communities and the world at large.</p>

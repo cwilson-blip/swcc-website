@@ -14,7 +14,7 @@ export default function StudentAchievementPage() {
     <div className="hero-scrim"></div>
   </div>
   <div className="container page-hero-inner">
-    <p className="eyebrow eyebrow-invert">Student Achievement</p>
+    <p className="eyebrow eyebrow-invert">Academics</p>
     <h1>Student Achievement</h1>
     <p className="lede hero-lede">A holistic educational program that motivates students to value and achieve academic excellence within a commitment to moral and spiritual values.</p>
   </div>

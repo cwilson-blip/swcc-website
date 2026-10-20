@@ -42,6 +42,7 @@ NAV = [
         ("Degree Plans", "degree-plans.html"),
         ("Online Classes", "online-classes.html"),
         ("Academic Catalogs", "academic-catalogs.html"),
+        ("Student Achievement", "student-achievement.html"),
     ]),
     ("Programs", "programs.html", [
         ("Campus Life & Programs", "programs.html"),

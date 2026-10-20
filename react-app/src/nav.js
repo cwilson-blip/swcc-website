@@ -53,6 +53,7 @@ export const NAV = [
       ["Degree Plans", "/degree-plans"],
       ["Online Classes", "/online-classes"],
       ["Academic Catalogs", "/academic-catalogs"],
+      ["Student Achievement", "/student-achievement"],
     ],
   },
   {
