@@ -942,6 +942,77 @@ body.nav-locked { overflow: hidden; }
 }
 
 /* =================================================================
+   Academic calendar (Academics Overview)
+   Almanac layout: two terms side by side, grouped by month, with
+   no-class days marked in brass so breaks are visible at a glance.
+   ================================================================= */
+
+#academic-calendar { scroll-margin-top: 140px; }
+.cal-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 36px; }
+.cal-head h2 { margin-top: 14px; }
+
+.cal-keys {
+  display: grid; grid-template-columns: repeat(4, 1fr); margin: 0 0 64px;
+  border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line);
+}
+.cal-keys > div { padding: 20px 20px 20px 0; }
+.cal-keys > div + div { border-left: 1px solid var(--line); padding-left: 20px; }
+.cal-keys dt {
+  font-family: var(--font-label); font-size: 0.72rem; font-weight: 500; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--stone);
+}
+.cal-keys dd { margin: 6px 0 0; font-family: var(--font-display); font-size: 1.55rem; font-weight: 600; color: var(--ink); line-height: 1.15; }
+
+.cal-terms { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
+.cal-term-head {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+  padding-bottom: 14px; border-bottom: 2px solid var(--brass); margin-bottom: 6px;
+}
+.cal-term-head span {
+  font-family: var(--font-label); font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--stone);
+}
+.cal-month {
+  font-family: var(--font-label); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--brass-dim); margin: 26px 0 4px;
+}
+.cal-list { list-style: none; margin: 0; padding: 0; }
+.cal-list li {
+  display: grid; grid-template-columns: 96px 1fr; gap: 16px; padding: 11px 0;
+  border-bottom: 1px solid var(--line); font-size: 0.94rem; line-height: 1.5;
+}
+.cal-date { font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; color: var(--ink); line-height: 1.3; }
+.cal-day {
+  display: block; font-family: var(--font-label); font-size: 0.68rem; font-weight: 500;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--stone); margin-top: 2px;
+}
+.cal-event { color: var(--stone); }
+.cal-event strong { color: var(--ink); }
+.cal-event a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 3px; }
+.cal-key .cal-event { color: var(--ink); }
+.cal-closed { background: rgba(195,154,70,0.10); box-shadow: inset 3px 0 0 var(--brass); margin-left: -14px; padding-left: 14px !important; }
+.cal-closed .cal-event { color: var(--ink); font-weight: 500; }
+.cal-tag {
+  display: inline-block; margin-left: 10px; font-family: var(--font-label); font-size: 0.64rem; font-weight: 600;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-deep); background: var(--brass);
+  padding: 2px 8px; border-radius: 2px; vertical-align: 2px;
+}
+.cal-observance .cal-event { font-style: italic; }
+.cal-disclaimer { margin-top: 40px; font-size: 0.88rem; font-style: italic; }
+
+@media (max-width: 980px) {
+  .cal-terms { grid-template-columns: 1fr; gap: 56px; }
+  .cal-keys { grid-template-columns: 1fr 1fr; }
+  .cal-keys > div:nth-child(3) { border-left: none; padding-left: 0; }
+  .cal-keys > div:nth-child(n+3) { border-top: 1px solid var(--line); }
+}
+
+@media (max-width: 560px) {
+  .cal-keys dd { font-size: 1.25rem; }
+  .cal-list li { grid-template-columns: 78px 1fr; gap: 12px; }
+  .cal-tag { margin-left: 0; margin-top: 6px; display: table; }
+}
+
+/* =================================================================
    Upper Room Studios page
    Signature: the gear list set like a studio tech rider — condensed
    channel-label headings over hairline-ruled rows on deep navy.
