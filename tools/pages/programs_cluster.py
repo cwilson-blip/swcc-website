@@ -7,7 +7,7 @@ def add(filename, title, description, body):
     PAGES.append((filename, title, description, body))
 
 
-add("programs.html", "Campus Life & Programs", "Programs and campus life at Southwestern Christian College — Criminal Justice, the Upper Room Studios, athletics, and the A Cappella Chorus.", f'''
+add("programs.html", "Campus Life & Programs", "Programs and campus life at Southwestern Christian College — Criminal Justice, the Upper Room Studios, athletics, and the Acappella Chorus.", f'''
 {photo_hero("Programs", "Campus Life &amp; Programs", "A choice of clubs and organizations for your pleasure and on-campus networking.", "assets/images/campus/gym-community-event.jpg", "Community gathering in the campus gymnasium")}
 <section class="section on-paper">
   <div class="container">
@@ -25,7 +25,7 @@ add("programs.html", "Campus Life & Programs", "Programs and campus life at Sout
         <p>NJCAA Region 5 basketball, volleyball, track &amp; field, soccer, and cross country.</p>
       </a>
       <a class="plaque" href="chorus.html" style="display:block;">
-        <h4>A Cappella Chorus</h4>
+        <h4>Acappella Chorus</h4>
         <p>Campus social life through music, friendship, and performance.</p>
       </a>
     </div>
@@ -367,11 +367,11 @@ add("studio.html", "The Upper Room Studios", "The Upper Room Studios at Southwes
 </section>
 ''')
 
-add("chorus.html", "A Cappella Chorus", "The A Cappella Chorus at Southwestern Christian College builds friendship and campus community through music.", f'''
-{plain_hero("Programs", "A Cappella Chorus", "")}
+add("chorus.html", "Acappella Chorus", "The Acappella Chorus at Southwestern Christian College builds friendship and campus community through music.", f'''
+{plain_hero("Programs", "Acappella Chorus", "")}
 <section class="section on-paper">
   <div class="container prose">
-    <p>Life on the campus of Southwestern Christian College is not just academics, but also the social atmosphere that promotes growth and friendship &mdash; the kind that lasts a lifetime. The A Cappella Chorus is one of several organizations at SwCC where students build that community, on stage and off.</p>
+    <p>Life on the campus of Southwestern Christian College is not just academics, but also the social atmosphere that promotes growth and friendship &mdash; the kind that lasts a lifetime. The Acappella Chorus is one of several organizations at SwCC where students build that community, on stage and off.</p>
     <p>Chorus participation and leadership also come with dedicated scholarship support &mdash; see the <a href="scholarships.html">Scholarships</a> page for details.</p>
   </div>
 </section>
@@ -393,7 +393,7 @@ add("chorus.html", "A Cappella Chorus", "The A Cappella Chorus at Southwestern C
       <div class="chorus-meta">
         <p class="chorus-track">Featured</p>
         <h3>Treasures</h3>
-        <p>The SwCC A Cappella Chorus&rsquo;s debut performance of the 2026&ndash;27 year, sung at Northside Church of Christ in San Antonio.</p>
+        <p>The SwCC Acappella Chorus&rsquo;s debut performance of the 2026&ndash;27 year, sung at Northside Church of Christ in San Antonio.</p>
         <span class="chorus-time">2:40</span>
       </div>
     </article>

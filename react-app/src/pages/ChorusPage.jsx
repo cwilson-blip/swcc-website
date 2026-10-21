@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function ChorusPage() {
   useEffect(() => {
-    document.title = "A Cappella Chorus | Southwestern Christian College";
+    document.title = "Acappella Chorus | Southwestern Christian College";
   }, []);
 
   return (
@@ -12,14 +12,14 @@ export default function ChorusPage() {
 <section className="page-hero-plain">
   <div className="container">
     <p className="eyebrow eyebrow-invert">Programs</p>
-    <h1>A Cappella Chorus</h1>
+    <h1>Acappella Chorus</h1>
     
   </div>
 </section>
 
 <section className="section on-paper">
   <div className="container prose">
-    <p>Life on the campus of Southwestern Christian College is not just academics, but also the social atmosphere that promotes growth and friendship — the kind that lasts a lifetime. The A Cappella Chorus is one of several organizations at SwCC where students build that community, on stage and off.</p>
+    <p>Life on the campus of Southwestern Christian College is not just academics, but also the social atmosphere that promotes growth and friendship — the kind that lasts a lifetime. The Acappella Chorus is one of several organizations at SwCC where students build that community, on stage and off.</p>
     <p>Chorus participation and leadership also come with dedicated scholarship support — see the <Link to="/scholarships">Scholarships</Link> page for details.</p>
   </div>
 </section>
@@ -41,7 +41,7 @@ export default function ChorusPage() {
       <div className="chorus-meta">
         <p className="chorus-track">Featured</p>
         <h3>Treasures</h3>
-        <p>The SwCC A Cappella Chorus’s debut performance of the 2026–27 year, sung at Northside Church of Christ in San Antonio.</p>
+        <p>The SwCC Acappella Chorus’s debut performance of the 2026–27 year, sung at Northside Church of Christ in San Antonio.</p>
         <span className="chorus-time">2:40</span>
       </div>
     </article>

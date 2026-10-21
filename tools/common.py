@@ -49,7 +49,7 @@ NAV = [
         ("Criminal Justice", "criminal-justice.html"),
         ("Studio", "studio.html"),
         ("Athletics", ATHLETICS_URL),
-        ("A Cappella Chorus", "chorus.html"),
+        ("Acappella Chorus", "chorus.html"),
         ("Career Opportunities", "career.html"),
     ]),
     ("Initiatives", "initiatives.html", [

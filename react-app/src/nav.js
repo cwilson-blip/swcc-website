@@ -64,7 +64,7 @@ export const NAV = [
       ["Criminal Justice", "/criminal-justice"],
       ["Studio", "/studio"],
       ["Athletics", ATHLETICS_URL],
-      ["A Cappella Chorus", "/chorus"],
+      ["Acappella Chorus", "/chorus"],
       ["Career Opportunities", "/career"],
     ],
   },

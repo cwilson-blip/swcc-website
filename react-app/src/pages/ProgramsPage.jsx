@@ -37,7 +37,7 @@ export default function ProgramsPage() {
         <p>NJCAA Region 5 basketball, volleyball, track & field, soccer, and cross country.</p>
       </a>
       <Link className="plaque" to="/chorus" style={{display: 'block'}}>
-        <h4>A Cappella Chorus</h4>
+        <h4>Acappella Chorus</h4>
         <p>Campus social life through music, friendship, and performance.</p>
       </Link>
     </div>
