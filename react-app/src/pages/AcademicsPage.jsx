@@ -28,7 +28,9 @@ export default function AcademicsPage() {
       <ul>
         <li>Associate of Arts</li>
         <li>Associate of Science</li>
+        <li>Associate of Science in Criminal Justice</li>
         <li>Bachelor of Science in Religious Studies</li>
+        <li>Bachelor of Science in Interdisciplinary Studies</li>
       </ul>
       <Link className="btn btn-outline-dark" to="/degree-plans">View Degree Plans</Link>
 

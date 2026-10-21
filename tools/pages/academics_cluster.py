@@ -129,6 +129,7 @@ ACADEMIC_CALENDAR = f'''
 # ---------- Degree plan course breakdowns ----------
 # Transferred verbatim from https://www.swcc.edu/degree-plans (Oct 2026).
 # On that page the hours column is a separate list read top-to-bottom alongside the courses.
+# Natural Science corrected from 9 to 8 (typo on the old site, confirmed by SwCC Oct 2026).
 CORE_COURSES_AA = [
     ("Bible (121, 122, 221, 222)", "8"),
     ("CS 131, Introduction to Computer Science", "3"),
@@ -152,7 +153,7 @@ CORE_COURSES_AS = [
     ("History (131, 132, 234)", "9"),
     ("Humanities (231 or 232)", "3"),
     ("Mathematics (MTH 135 or above)", "3"),
-    ("Natural Science", "9"),
+    ("Natural Science", "8"),
     ("Physical Education (Activity)", "2"),
     ("PSY 110, Freshman Orientation", "1"),
     ("UJI 110, UJIMA", "1"),
@@ -168,7 +169,7 @@ CORE_COURSES_BS_RELIGIOUS_STUDIES = [
     ("History (131, 132, 234)", "9"),
     ("Humanities (231 or 232)", "3"),
     ("Mathematics (MTH 135 or above)", "3"),
-    ("Natural Science", "9"),
+    ("Natural Science", "8"),
     ("Physical Education (Activity)", "2"),
     ("PSY 110, Freshman Orientation", "1"),
     ("UJI 110, UJIMA", "1"),
@@ -179,6 +180,66 @@ CORE_COURSES_BS_RELIGIOUS_STUDIES = [
     ("*Internship", "2"),
     ("*Minor1", "18"),
     ("*Elective", "9"),
+]
+
+# From the 2024-2025 Academic Catalog (Associate of Science - Criminal Justice).
+CORE_COURSES_AS_CRIMINAL_JUSTICE = [
+    ("Bible (121, 122, 221, 222)", "8"),
+    ("CS 131, Introduction to Computer Science", "3"),
+    ("English (131, 132, 3 hours Literature)", "9"),
+    ("History (131, 132, 234)", "9"),
+    ("Humanities (231 or 232)", "3"),
+    ("Mathematics (MTH 135 or above)", "3"),
+    ("Natural Science", "8"),
+    ("Physical Education (Activity)", "2"),
+    ("PSY 110, Freshman Orientation", "1"),
+    ("UJI 110, UJIMA", "1"),
+    ("PSY 131 or SOC 131", "3"),
+    ("Speech 131", "3"),
+    ("Program Electives**", "9"),
+]
+
+# **Program Electives (9 hours) — Criminal Justice course group, 2026-2027 catalog year
+# (carried forward from the 2024-2025 definition), provided by SwCC Oct 2026.
+CJ_PROGRAM_ELECTIVES = [
+    ("CMJ131 Introduction to Criminal Justice", "3"),
+    ("CMJ132 Introduction to Law Enforcement", "3"),
+    ("CMJ231 Corrections", "3"),
+    ("CMJ232 Juvenile Delinquency", "3"),
+    ("CMJ233 Criminology", "3"),
+    ("CMJ234 Homeland Security", "3"),
+]
+
+
+def _electives_table(rows, caption):
+    body = "\n".join(f'<tr><td>{c}</td><td>{h}</td></tr>' for c, h in rows)
+    return f'''<table class="dp-table dp-electives">
+      <caption class="sr-only">{caption}</caption>
+      <thead><tr><th scope="col">Course</th><th scope="col">Hours</th></tr></thead>
+      <tbody>
+{body}
+      </tbody>
+    </table>'''
+
+
+CORE_COURSES_BS_INTERDISCIPLINARY_STUDIES = [
+    ("Bible (121, 122, 221, 222)", "8"),
+    ("Bible (300/400 level)", "12"),
+    ("CS 131, Introduction to Computer Science", "3"),
+    ("English (131, 132, 3 hours Literature)", "9"),
+    ("History (131, 132, 234)", "9"),
+    ("Humanities (231 or 232)", "3"),
+    ("Mathematics (MTH 135 or above)", "3"),
+    ("Natural Science", "8"),
+    ("Physical Education (Activity)", "2"),
+    ("PSY 110, Freshman Orientation", "1"),
+    ("UJI 110, UJIMA", "1"),
+    ("PSY 131 or SOC 131", "3"),
+    ("Speech 131", "3"),
+    ("Concentration I", "15"),
+    ("Concentration II", "15"),
+    ("*Concentration III", "15"),
+    ("Electives", "10"),
 ]
 
 
@@ -202,7 +263,9 @@ add("academics.html", "Academics", "Academics at Southwestern Christian College 
       <ul>
         <li>Associate of Arts</li>
         <li>Associate of Science</li>
+        <li>Associate of Science in Criminal Justice</li>
         <li>Bachelor of Science in Religious Studies</li>
+        <li>Bachelor of Science in Interdisciplinary Studies</li>
       </ul>
       <a class="btn btn-outline-dark" href="degree-plans.html">View Degree Plans</a>
 
@@ -254,9 +317,17 @@ add("degree-plans.html", "Degree Plans", "Degree plans and graduation requiremen
     <h2>Associate of Science &mdash; 62 Hours</h2>
     <p>Mirrors the Associate of Arts, substituting Natural Science coursework for the Foreign Language requirement.</p>
     {_degree_table(CORE_COURSES_AS, "62", "Associate of Science courses and hours")}
+    <h2>Associate of Science in Criminal Justice &mdash; 62 Hours</h2>
+    <p>The Associate of Science foundation paired with nine hours of Criminal Justice program electives. <a href="criminal-justice.html">Learn about the Criminal Justice program</a>.</p>
+    {_degree_table(CORE_COURSES_AS_CRIMINAL_JUSTICE, "62", "Associate of Science in Criminal Justice courses and hours")}
+    <h3 class="dp-sub">**Program Electives (9 hours)</h3>
+    {_electives_table(CJ_PROGRAM_ELECTIVES, "Criminal Justice program electives")}
     <h2>Religious Studies Bachelor of Science &mdash; 131 Hours</h2>
     <p>Builds on the associate-level foundation with specialized coursework in Religion, Bible, and Ministry, an internship component, a minor, and additional electives.</p>
     {_degree_table(CORE_COURSES_BS_RELIGIOUS_STUDIES, "131", "Religious Studies Bachelor of Science courses and hours")}
+    <h2>Interdisciplinary Studies Bachelor of Science &mdash; 120 Hours</h2>
+    <p>Builds on the general education foundation with upper-level Bible coursework, three 15-hour concentrations, and electives.</p>
+    {_degree_table(CORE_COURSES_BS_INTERDISCIPLINARY_STUDIES, "120", "Interdisciplinary Studies Bachelor of Science courses and hours")}
     <a class="btn btn-outline-dark" href="academic-catalogs.html">See Full Course Catalogs</a>
   </div>
 </section>
