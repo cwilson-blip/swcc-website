@@ -1213,3 +1213,33 @@ body.nav-locked { overflow: hidden; }
 .prose h3.dp-sub { font-size: 1.05rem; margin: 30px 0 0; }
 .dp-electives { margin-top: 10px; }
 .dp-electives td { font-size: 0.94rem; }
+
+/* =================================================================
+   Campus Safety: crime prevention tips + Resources campus map
+   ================================================================= */
+
+.tips-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px 32px; }
+.tips-grid + .tips-grid { margin-top: 56px; padding-top: 44px; border-top: 1px solid var(--line); }
+.tips-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.tips-grid h3 {
+  font-family: var(--font-label); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--brass-dim); padding-bottom: 12px; border-bottom: 2px solid var(--brass); margin-bottom: 4px;
+}
+.tips-grid ul { list-style: none; margin: 0; padding: 0; }
+.tips-grid li { padding: 11px 0; border-bottom: 1px solid var(--line); color: var(--ink); font-size: 0.95rem; line-height: 1.45; }
+#lockdown-procedures .steps { margin: 8px 0 0; }
+
+.campus-map { margin: 0; }
+.campus-map > a { display: block; border: 1px solid var(--line); border-radius: var(--radius-sm); overflow: hidden; background: #fff; box-shadow: var(--shadow-card); }
+.campus-map img { width: 100%; height: auto; display: block; }
+.campus-map figcaption { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin-top: 18px; }
+.campus-map figcaption span { font-family: var(--font-label); font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--stone); }
+
+@media (max-width: 980px) {
+  .tips-grid { grid-template-columns: 1fr 1fr; }
+  .tips-grid-3 { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 560px) {
+  .tips-grid, .tips-grid-3 { grid-template-columns: 1fr; }
+  .btn-wrap { white-space: normal; text-align: center; justify-content: center; max-width: 100%; }
+}

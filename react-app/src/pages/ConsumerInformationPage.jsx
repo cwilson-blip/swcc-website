@@ -30,7 +30,7 @@ export default function ConsumerInformationPage() {
     </ul>
     <h2 style={{margin: '40px 0 8px'}}>General Institution Information</h2>
     <ul className="doc-list">
-      <li><Link to="/resources">Campus Facilities & Map</Link></li>
+      <li><Link to="/resources#campus-map">Campus Facilities & Map</Link></li>
     </ul>
     <h2 style={{margin: '40px 0 8px'}}>Intercollegiate Athletics</h2>
     <ul className="doc-list">

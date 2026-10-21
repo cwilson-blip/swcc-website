@@ -18,6 +18,7 @@ export const NAV = [
       ["Our History", "/history"],
       ["Videos", "/videos"],
       ["Alumni", "/alumni"],
+      ["Career Opportunities", "/career"],
     ],
   },
   {
@@ -65,7 +66,6 @@ export const NAV = [
       ["Studio", "/studio"],
       ["Athletics", ATHLETICS_URL],
       ["Acappella Chorus", "/chorus"],
-      ["Career Opportunities", "/career"],
     ],
   },
   {

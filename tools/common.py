@@ -19,6 +19,7 @@ NAV = [
         ("Our History", "history.html"),
         ("Videos", "videos.html"),
         ("Alumni", "alumni.html"),
+        ("Career Opportunities", "career.html"),
     ]),
     ("Admissions", "admissions.html", [
         ("Admissions Overview", "admissions.html"),
@@ -50,7 +51,6 @@ NAV = [
         ("Studio", "studio.html"),
         ("Athletics", ATHLETICS_URL),
         ("Acappella Chorus", "chorus.html"),
-        ("Career Opportunities", "career.html"),
     ]),
     ("Initiatives", "initiatives.html", [
         ("Institutional Effectiveness", "institutional-effectiveness.html"),

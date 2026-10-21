@@ -117,11 +117,11 @@ export default function HomePage() {
           <figcaption><span>Community Service</span></figcaption>
         </Link>
       </figure>
-      <figure className="mosaic-item mosaic-item-static">
-        <div className="mosaic-link">
+      <figure className="mosaic-item">
+        <Link className="mosaic-link" to="/preview-day">
           <img src="/assets/images/campus/classroom-teaching.jpg" alt="Students in a computer science classroom" />
-          <figcaption><span>Study Abroad Opportunities</span></figcaption>
-        </div>
+          <figcaption><span>Preview Day</span></figcaption>
+        </Link>
       </figure>
     </div>
   </div>

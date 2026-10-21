@@ -120,11 +120,11 @@ def body():
           <figcaption><span>Community Service</span></figcaption>
         </a>
       </figure>
-      <figure class="mosaic-item mosaic-item-static">
-        <div class="mosaic-link">
+      <figure class="mosaic-item">
+        <a class="mosaic-link" href="preview-day.html">
           <img src="assets/images/campus/classroom-teaching.jpg" alt="Students in a computer science classroom">
-          <figcaption><span>Study Abroad Opportunities</span></figcaption>
-        </div>
+          <figcaption><span>Preview Day</span></figcaption>
+        </a>
       </figure>
     </div>
   </div>
