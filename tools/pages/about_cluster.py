@@ -48,14 +48,14 @@ add("about.html", "Our School", "Our School at Southwestern Christian College â€
 
 # ---------------------------------------------------------------- President
 PRESIDENT_LETTERS = [
-    ("SwCC MC Hall", "March 2025", "https://www.swcc.edu/_files/ugd/82aa45_6e233c5bc39648e78bebbf298fae12cc.pdf"),
-    ("Letter from Dr. Seamster", "July 2024", "https://www.swcc.edu/_files/ugd/82aa45_e4a74d96fb4848ddb6ce064a173bd171.pdf"),
-    ("SwCC Names New Athletic Director", "May 2024", "https://www.swcc.edu/_files/ugd/82aa45_4944320546b54b78b9bcde1f7ef66ccd.pdf"),
-    ("SwCC Names New Athletic Director", "April 2023", "https://www.swcc.edu/_files/ugd/0775cf_ac5d9989d1764e26af446892bbf93b9d.pdf"),
-    ("SW Upgrades Vital Departments", "August 2021", "https://www.swcc.edu/_files/ugd/0775cf_f395d73664ab45faae9c355ca78602ea.pdf"),
-    ("Letter to SwCC National Alumni Association", "April 2020", "https://www.swcc.edu/_files/ugd/0775cf_62eb588d609d4d6290eb5ecc890b0e39.pdf"),
-    ("Corona Update / Online Courses", "March 2020", "https://www.swcc.edu/_files/ugd/0775cf_00cb12b674f74c7f92d739d360645e0b.pdf"),
-    ("Letter To Our Students", "March 2020", "https://www.swcc.edu/_files/ugd/0775cf_94a0e1e1ebdb447b9bc306c64319a09a.pdf"),
+    ("SwCC MC Hall", "March 2025", "assets/docs/news-2025-03-swcc-mc-hall.pdf"),
+    ("Letter from Dr. Seamster", "July 2024", "assets/docs/news-2024-07-letter-from-dr-seamster.pdf"),
+    ("SwCC Names New Athletic Director", "May 2024", "assets/docs/news-2024-05-new-athletic-director.pdf"),
+    ("SwCC Names New Athletic Director", "April 2023", "assets/docs/news-2023-04-new-athletic-director.pdf"),
+    ("SW Upgrades Vital Departments", "August 2021", "assets/docs/news-2021-08-upgrades-vital-departments.pdf"),
+    ("Letter to SwCC National Alumni Association", "April 2020", "assets/docs/news-2020-04-letter-to-national-alumni-association.pdf"),
+    ("Corona Update / Online Courses", "March 2020", "assets/docs/news-2020-03-corona-update-online-courses.pdf"),
+    ("Letter To Our Students", "March 2020", "assets/docs/news-2020-03-letter-to-our-students.pdf"),
 ]
 
 

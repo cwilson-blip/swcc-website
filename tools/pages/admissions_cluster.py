@@ -57,7 +57,7 @@ add("how-to-enroll.html", "How To Enroll", "How to apply to Southwestern Christi
           <span class="step-num" aria-hidden="true"></span>
           <div>
             <h3>Submit Application</h3>
-            <p>Complete the <a href="https://www.swcc.edu/_files/ugd/0775cf_ecf226ff444146489895e96ee545f949.pdf" target="_blank" rel="noopener">General Application</a> and pay the $20 non-refundable application fee. Fall semester applications are due August 17; spring semester applications are due January 10.</p>
+            <p>Complete the <a href="assets/docs/admissions-general-application.pdf" target="_blank" rel="noopener">General Application</a> and pay the $20 non-refundable application fee. Fall semester applications are due August 17; spring semester applications are due January 10.</p>
           </div>
         </div>
         <div class="step">
@@ -80,10 +80,10 @@ add("how-to-enroll.html", "How To Enroll", "How to apply to Southwestern Christi
             <h3>Submit Enrollment Documents</h3>
             <p>Complete your Medical Record, Academic Recommendation, Character Recommendation, and Residence Hall forms, along with an immunization record, a current 2x2 photograph, and the required 600-word essay.</p>
             <ul class="doc-list" style="margin-top:14px;">
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ad8c95e8a294416a8bd743e4382e937f.pdf" target="_blank" rel="noopener">Medical Record <span class="tag">PDF</span></a></li>
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_79b963539b324290b4409d1536ef2f65.pdf" target="_blank" rel="noopener">Academic Recommendation <span class="tag">PDF</span></a></li>
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_48f0f9cb321c4bf3b4734a79b12d9e41.pdf" target="_blank" rel="noopener">Character Recommendation <span class="tag">PDF</span></a></li>
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_08fbb8858b444d59832669d232388e4c.pdf" target="_blank" rel="noopener">Residence Hall Form <span class="tag">PDF</span></a></li>
+              <li><a href="assets/docs/admissions-medical-record.pdf" target="_blank" rel="noopener">Medical Record <span class="tag">PDF</span></a></li>
+              <li><a href="assets/docs/admissions-academic-recommendation.pdf" target="_blank" rel="noopener">Academic Recommendation <span class="tag">PDF</span></a></li>
+              <li><a href="assets/docs/admissions-character-recommendation.pdf" target="_blank" rel="noopener">Character Recommendation <span class="tag">PDF</span></a></li>
+              <li><a href="assets/docs/admissions-residence-hall-form.pdf" target="_blank" rel="noopener">Residence Hall Form <span class="tag">PDF</span></a></li>
               <li><a href="http://swcc.edu/2017Required_Essay_Question.pdf" target="_blank" rel="noopener">Required Essay Question <span class="tag">PDF</span></a></li>
             </ul>
             <p style="margin-top:14px;">Prefer to mail your forms? Send them to: Southwestern Christian College, P.O. Box 10, Terrell, TX 75160.</p>
@@ -208,7 +208,7 @@ add("preview-day.html", "Preview Day 2026", "Preview Day 2026 at Southwestern Ch
 <section class="section on-paper">
   <div class="container prose">
     <p>Preview Day gives prospective students and families a firsthand look at campus &mdash; classrooms, residence halls, chapel, and the people who make SwCC feel like home. Download the full event flyer for this year&rsquo;s date, schedule, and registration details.</p>
-    <a class="btn btn-outline-dark" href="https://www.swcc.edu/_files/ugd/82aa45_cf30083804ec45a990f7f47ff07e3036.pdf" target="_blank" rel="noopener">Download the Preview Day Flyer</a>
+    <a class="btn btn-outline-dark" href="assets/docs/preview-day-flyer.pdf" target="_blank" rel="noopener">Download the Preview Day Flyer</a>
   </div>
 </section>
 ''')
@@ -227,10 +227,10 @@ add("admissions-international.html", "Admissions (International)", "Admissions r
       <h2>Step 2 &mdash; Forms Required</h2>
       <p>Complete your <a href="https://swcc.populiweb.com/router/admissions/onlineapplications/index?embedded=1&amp;application_form=40497&amp;source=65912" target="_blank" rel="noopener">International Application</a> online, plus the following forms:</p>
       <ul class="doc-list">
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ad8c95e8a294416a8bd743e4382e937f.pdf" target="_blank" rel="noopener">Medical Record <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_79b963539b324290b4409d1536ef2f65.pdf" target="_blank" rel="noopener">Academic Recommendation <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_48f0f9cb321c4bf3b4734a79b12d9e41.pdf" target="_blank" rel="noopener">Character Recommendation <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_08fbb8858b444d59832669d232388e4c.pdf" target="_blank" rel="noopener">Residence Hall Form <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/admissions-medical-record.pdf" target="_blank" rel="noopener">Medical Record <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/admissions-academic-recommendation.pdf" target="_blank" rel="noopener">Academic Recommendation <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/admissions-character-recommendation.pdf" target="_blank" rel="noopener">Character Recommendation <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/admissions-residence-hall-form.pdf" target="_blank" rel="noopener">Residence Hall Form <span class="tag">PDF</span></a></li>
       </ul>
       <h2>Step 3 &mdash; Other Documents (F-1 Visa)</h2>
       <ul>
@@ -240,19 +240,19 @@ add("admissions-international.html", "Admissions (International)", "Admissions r
       </ul>
       <p>F-1 visa documentation:</p>
       <ul class="doc-list">
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_eb63a1980fe04b9989dce3496c4a3100.pdf" target="_blank" rel="noopener">F-1 Travel Handout <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_48d74e1834c34b988dee289b3d71fb87.pdf" target="_blank" rel="noopener">How to Get a SSN <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_79ee44ebc098455a9aedd16d1a24ef6e.pdf" target="_blank" rel="noopener">F-1 Employment Info <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_9eabb942b7e14af68f518ae2a8e5f273.pdf" target="_blank" rel="noopener">F-1 Registration Data Sheet <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_1669e01458aa4d0ba07196184246f166.pdf" target="_blank" rel="noopener">F-1 &ldquo;In&rdquo; Form <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_745d21920bda43da9567fd2967f6cb6f.pdf" target="_blank" rel="noopener">F-1 Transfer-Out Form <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ac314197228149fa9e7c324a300ecd60.pdf" target="_blank" rel="noopener">I-20 Application <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_686dd7693cbc45a4b9e5be739b7b45ff.pdf" target="_blank" rel="noopener">I-20 Extension <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_6b38b466ff5d42c989edd8305f83ca62.pdf" target="_blank" rel="noopener">F-1 and I-20 Updates <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_21205e42076f4a1382f9a39af00e1d73.pdf" target="_blank" rel="noopener">RCL Application <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ccf1986acb414fb7a7b4004c4654162c.pdf" target="_blank" rel="noopener">Financial Verification <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_8f5faa4a98854969b64984fe31e4e1a4.pdf" target="_blank" rel="noopener">Fast Fact Sheet <span class="tag">PDF</span></a></li>
-        <li><a href="https://www.swcc.edu/_files/ugd/0775cf_4c66658664044876acfef830262ccc4f.pdf" target="_blank" rel="noopener">Letter from Admissions <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-f1-travel-handout.pdf" target="_blank" rel="noopener">F-1 Travel Handout <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-how-to-get-a-ssn.pdf" target="_blank" rel="noopener">How to Get a SSN <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-f1-employment-info.pdf" target="_blank" rel="noopener">F-1 Employment Info <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-f1-registration-data-sheet.pdf" target="_blank" rel="noopener">F-1 Registration Data Sheet <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-f1-in-form.pdf" target="_blank" rel="noopener">F-1 &ldquo;In&rdquo; Form <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-f1-transfer-out-form.pdf" target="_blank" rel="noopener">F-1 Transfer-Out Form <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-i20-application.pdf" target="_blank" rel="noopener">I-20 Application <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-i20-extension.pdf" target="_blank" rel="noopener">I-20 Extension <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-f1-and-i20-updates.pdf" target="_blank" rel="noopener">F-1 and I-20 Updates <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-rcl-application.pdf" target="_blank" rel="noopener">RCL Application <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-financial-verification.pdf" target="_blank" rel="noopener">Financial Verification <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-fast-fact-sheet.pdf" target="_blank" rel="noopener">Fast Fact Sheet <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/international-letter-from-admissions.pdf" target="_blank" rel="noopener">Letter from Admissions <span class="tag">PDF</span></a></li>
       </ul>
       <p><em>All scholarships, gifts, and awards for international students must be approved in writing by the President&rsquo;s office.</em></p>
       <h2>Step 4 &mdash; Fees</h2>
@@ -265,7 +265,7 @@ add("admissions-international.html", "Admissions (International)", "Admissions r
     <aside class="side-card">
       <h4>Download All Forms</h4>
       <p style="color:var(--stone); font-size:0.92rem;">Every F-1 document in one packet.</p>
-      <a class="btn btn-brass" href="https://www.swcc.edu/_files/ugd/82aa45_916e6a63eb434a95bdcf942bd797c1d4.pdf" target="_blank" rel="noopener">Download Forms</a>
+      <a class="btn btn-brass" href="assets/docs/international-forms-packet.pdf" target="_blank" rel="noopener">Download Forms</a>
       <a class="btn btn-outline-dark" href="https://swcc.populiweb.com/router/admissions/onlineapplications/index?embedded=1&amp;application_form=40497&amp;source=65912" target="_blank" rel="noopener">Start International Application</a>
     </aside>
   </div>

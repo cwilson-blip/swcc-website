@@ -1186,3 +1186,27 @@ body.nav-locked { overflow: hidden; }
   .sa-overall .sa-table tbody th, .sa-overall .sa-table td { font-size: 0.92rem; }
   .sa-race .sa-table tbody th { font-size: 0.8rem; }
 }
+
+/* =================================================================
+   Degree plan course tables
+   ================================================================= */
+
+.dp-table { width: 100%; border-collapse: collapse; margin: 22px 0 8px; font-variant-numeric: tabular-nums; }
+.dp-table thead th {
+  font-family: var(--font-label); font-size: 0.76rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--brass-dim); text-align: left; padding: 0 0 10px; border-bottom: 2px solid var(--ink);
+}
+.dp-table thead th:last-child, .dp-table td:last-child, .dp-table tfoot td { text-align: right; width: 5.5rem; }
+.dp-table td { padding: 11px 0; border-bottom: 1px solid var(--line); color: var(--ink); font-size: 0.98rem; line-height: 1.4; vertical-align: top; }
+.dp-table td:last-child { font-weight: 600; }
+.dp-table tfoot th, .dp-table tfoot td {
+  padding: 14px 0 0; border-top: 2px solid var(--ink); border-bottom: none;
+  font-family: var(--font-display); font-weight: 700; font-size: 1.15rem; color: var(--ink); text-align: left;
+}
+.dp-table tfoot td { text-align: right; }
+.prose .dp-table + h2 { margin-top: 64px; }
+
+@media (max-width: 560px) {
+  .dp-table td { font-size: 0.92rem; }
+  .dp-table thead th:last-child, .dp-table td:last-child, .dp-table tfoot td { width: 3.5rem; }
+}

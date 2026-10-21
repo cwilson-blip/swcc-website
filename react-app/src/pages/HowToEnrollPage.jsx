@@ -24,7 +24,7 @@ export default function HowToEnrollPage() {
           <span className="step-num" aria-hidden="true"></span>
           <div>
             <h3>Submit Application</h3>
-            <p>Complete the <a href="https://www.swcc.edu/_files/ugd/0775cf_ecf226ff444146489895e96ee545f949.pdf" target="_blank" rel="noopener">General Application</a> and pay the $20 non-refundable application fee. Fall semester applications are due August 17; spring semester applications are due January 10.</p>
+            <p>Complete the <a href="/assets/docs/admissions-general-application.pdf" target="_blank" rel="noopener">General Application</a> and pay the $20 non-refundable application fee. Fall semester applications are due August 17; spring semester applications are due January 10.</p>
           </div>
         </div>
         <div className="step">
@@ -47,10 +47,10 @@ export default function HowToEnrollPage() {
             <h3>Submit Enrollment Documents</h3>
             <p>Complete your Medical Record, Academic Recommendation, Character Recommendation, and Residence Hall forms, along with an immunization record, a current 2x2 photograph, and the required 600-word essay.</p>
             <ul className="doc-list" style={{marginTop: '14px'}}>
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_ad8c95e8a294416a8bd743e4382e937f.pdf" target="_blank" rel="noopener">Medical Record <span className="tag">PDF</span></a></li>
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_79b963539b324290b4409d1536ef2f65.pdf" target="_blank" rel="noopener">Academic Recommendation <span className="tag">PDF</span></a></li>
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_48f0f9cb321c4bf3b4734a79b12d9e41.pdf" target="_blank" rel="noopener">Character Recommendation <span className="tag">PDF</span></a></li>
-              <li><a href="https://www.swcc.edu/_files/ugd/0775cf_08fbb8858b444d59832669d232388e4c.pdf" target="_blank" rel="noopener">Residence Hall Form <span className="tag">PDF</span></a></li>
+              <li><a href="/assets/docs/admissions-medical-record.pdf" target="_blank" rel="noopener">Medical Record <span className="tag">PDF</span></a></li>
+              <li><a href="/assets/docs/admissions-academic-recommendation.pdf" target="_blank" rel="noopener">Academic Recommendation <span className="tag">PDF</span></a></li>
+              <li><a href="/assets/docs/admissions-character-recommendation.pdf" target="_blank" rel="noopener">Character Recommendation <span className="tag">PDF</span></a></li>
+              <li><a href="/assets/docs/admissions-residence-hall-form.pdf" target="_blank" rel="noopener">Residence Hall Form <span className="tag">PDF</span></a></li>
               <li><a href="http://swcc.edu/2017Required_Essay_Question.pdf" target="_blank" rel="noopener">Required Essay Question <span className="tag">PDF</span></a></li>
             </ul>
             <p style={{marginTop: '14px'}}>Prefer to mail your forms? Send them to: Southwestern Christian College, P.O. Box 10, Terrell, TX 75160.</p>

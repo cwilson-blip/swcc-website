@@ -126,6 +126,73 @@ ACADEMIC_CALENDAR = f'''
 '''
 
 
+# ---------- Degree plan course breakdowns ----------
+# Transferred verbatim from https://www.swcc.edu/degree-plans (Oct 2026).
+# On that page the hours column is a separate list read top-to-bottom alongside the courses.
+CORE_COURSES_AA = [
+    ("Bible (121, 122, 221, 222)", "8"),
+    ("CS 131, Introduction to Computer Science", "3"),
+    ("English (131, 132, 3 hours Literature)", "9"),
+    ("Foreign Language (141, 142)", "8"),
+    ("History (131, 132, 234)", "9"),
+    ("Humanities (231 or 232)", "3"),
+    ("Mathematics (MTH 135 or above)", "3"),
+    ("Physical Education (Activity)", "2"),
+    ("PSY 110, Freshman Orientation", "1"),
+    ("UJI 110, UJIMA", "1"),
+    ("PSY 131 or SOC 131", "3"),
+    ("Speech 131", "3"),
+    ("Electives", "9"),
+]
+
+CORE_COURSES_AS = [
+    ("Bible (121, 122, 221, 222)", "8"),
+    ("CS 131, Introduction to Computer Science", "3"),
+    ("English (131, 132, 3 hours Literature)", "9"),
+    ("History (131, 132, 234)", "9"),
+    ("Humanities (231 or 232)", "3"),
+    ("Mathematics (MTH 135 or above)", "3"),
+    ("Natural Science", "9"),
+    ("Physical Education (Activity)", "2"),
+    ("PSY 110, Freshman Orientation", "1"),
+    ("UJI 110, UJIMA", "1"),
+    ("PSY 131 or SOC 131", "3"),
+    ("Speech 131", "3"),
+    ("Electives", "9"),
+]
+
+CORE_COURSES_BS_RELIGIOUS_STUDIES = [
+    ("Bible (121, 122, 221, 222)", "8"),
+    ("CS 131, Introduction to Computer Science", "3"),
+    ("English (131, 132, 3 hours Literature)", "9"),
+    ("History (131, 132, 234)", "9"),
+    ("Humanities (231 or 232)", "3"),
+    ("Mathematics (MTH 135 or above)", "3"),
+    ("Natural Science", "9"),
+    ("Physical Education (Activity)", "2"),
+    ("PSY 110, Freshman Orientation", "1"),
+    ("UJI 110, UJIMA", "1"),
+    ("PSY 131 or SOC 131", "3"),
+    ("Speech 131", "3"),
+    ("*Religion", "22"),
+    ("*Bible and Ministry", "27"),
+    ("*Internship", "2"),
+    ("*Minor1", "18"),
+    ("*Elective", "9"),
+]
+
+
+def _degree_table(rows, total, caption):
+    body = "\n".join(f'<tr><td>{c}</td><td>{h}</td></tr>' for c, h in rows)
+    return f'''<table class="dp-table">
+      <caption class="sr-only">{caption}</caption>
+      <thead><tr><th scope="col">Courses</th><th scope="col">Hours</th></tr></thead>
+      <tbody>
+{body}
+      </tbody>
+      <tfoot><tr><th scope="row">Total Hours</th><td>{total}</td></tr></tfoot>
+    </table>'''
+
 add("academics.html", "Academics", "Academics at Southwestern Christian College — Associate and Bachelor's degree programs built around the whole person.", f'''
 {photo_hero("Academics", "Educating the Whole Person", "Southwestern Christian College is committed to excellence in Christian education, with a curriculum geared to the development of mind, character, and spirit together.", "assets/images/campus/classroom-teaching.jpg", "A professor teaching students in a small classroom")}
 <section class="section on-paper">
@@ -183,10 +250,13 @@ add("degree-plans.html", "Degree Plans", "Degree plans and graduation requiremen
   <div class="container prose">
     <h2>Associate of Arts &mdash; 62 Hours</h2>
     <p>Required coursework spans Bible, Computer Science, English, Foreign Language, History, Humanities, Mathematics, Physical Education, Psychology/Sociology, and Speech, plus electives.</p>
+    {_degree_table(CORE_COURSES_AA, "62", "Associate of Arts courses and hours")}
     <h2>Associate of Science &mdash; 62 Hours</h2>
     <p>Mirrors the Associate of Arts, substituting Natural Science coursework for the Foreign Language requirement.</p>
+    {_degree_table(CORE_COURSES_AS, "62", "Associate of Science courses and hours")}
     <h2>Religious Studies Bachelor of Science &mdash; 131 Hours</h2>
     <p>Builds on the associate-level foundation with specialized coursework in Religion, Bible, and Ministry, an internship component, a minor, and additional electives.</p>
+    {_degree_table(CORE_COURSES_BS_RELIGIOUS_STUDIES, "131", "Religious Studies Bachelor of Science courses and hours")}
     <a class="btn btn-outline-dark" href="academic-catalogs.html">See Full Course Catalogs</a>
   </div>
 </section>
@@ -207,10 +277,10 @@ add("academic-catalogs.html", "Academic Catalogs", "Download the Southwestern Ch
 <section class="section on-paper">
   <div class="container">
     <ul class="doc-list">
-      <li><a href="https://www.swcc.edu/_files/ugd/82aa45_3e7b95121dbc4225b2f034d20f389c17.pdf" target="_blank" rel="noopener">2024&ndash;2025 Academic Catalog <span class="tag">PDF</span></a></li>
-      <li><a href="https://www.swcc.edu/_files/ugd/82aa45_dfc7d371ac2e4d57aaff5036d10a1643.pdf" target="_blank" rel="noopener">2023&ndash;2024 Academic Catalog <span class="tag">PDF</span></a></li>
-      <li><a href="https://www.swcc.edu/_files/ugd/82aa45_7c760a3ba12c48fc86f36945e8d04fdc.pdf" target="_blank" rel="noopener">2022&ndash;2023 Academic Catalog <span class="tag">PDF</span></a></li>
-      <li><a href="https://www.swcc.edu/_files/ugd/82aa45_3d001c69665f473789bb54e8504f7232.pdf" target="_blank" rel="noopener">2019&ndash;2021 Academic Catalog <span class="tag">PDF</span></a></li>
+      <li><a href="assets/docs/academic-catalog-2024-2025.pdf" target="_blank" rel="noopener">2024&ndash;2025 Academic Catalog <span class="tag">PDF</span></a></li>
+      <li><a href="assets/docs/academic-catalog-2023-2024.pdf" target="_blank" rel="noopener">2023&ndash;2024 Academic Catalog <span class="tag">PDF</span></a></li>
+      <li><a href="assets/docs/academic-catalog-2022-2023.pdf" target="_blank" rel="noopener">2022&ndash;2023 Academic Catalog <span class="tag">PDF</span></a></li>
+      <li><a href="assets/docs/academic-catalog-2019-2021.pdf" target="_blank" rel="noopener">2019&ndash;2021 Academic Catalog <span class="tag">PDF</span></a></li>
     </ul>
   </div>
 </section>
