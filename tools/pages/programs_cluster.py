@@ -38,7 +38,7 @@ add("criminal-justice.html", "Criminal Justice", "Earn an Associate Degree in Cr
   <div class="container">
     <p class="eyebrow eyebrow-invert">Programs &middot; Associate Degree</p>
     <h1>Criminal Justice</h1>
-    <p class="cj-tagline">Today&rsquo;s Students. <em>Tomorrow&rsquo;s Guardians of Justice.</em></p>
+    <p class="cj-tagline">Today&rsquo;s Scholars. <em>Tomorrow&rsquo;s Guardians of Justice.</em></p>
     <ul class="cj-motto" aria-label="Program motto">
       <li>Learn</li><li>Lead</li><li>Serve</li><li>Protect</li>
     </ul>
@@ -48,7 +48,7 @@ add("criminal-justice.html", "Criminal Justice", "Earn an Associate Degree in Cr
 <section class="cj-poster-band">
   <div class="container">
     <figure class="cj-poster">
-      <img src="assets/images/campus/criminal-justice-guardians-poster.jpg" alt="Three SwCC Criminal Justice students walk across campus toward a gold shield showing the scales of justice and silhouetted officers. Text reads: Today&rsquo;s Students, Tomorrow&rsquo;s Guardians of Justice &mdash; Learn, Lead, Serve, Protect &mdash; with Micah 6:8.">
+      <img src="assets/images/campus/criminal-justice-scholars-poster.jpg" alt="Three SwCC Criminal Justice students look out over an aerial view of campus beside a gold shield with the scales of justice and silhouetted officers. Text reads: Today&rsquo;s Scholars, Tomorrow&rsquo;s Guardians of Justice &mdash; Learn, Lead, Serve, Protect &mdash; Preparing Leaders. Building Character. Serving Communities. Upholding Justice. Southwestern Christian College Criminal Justice." width="1128" height="1394">
     </figure>
   </div>
 </section>
@@ -182,7 +182,7 @@ add("criminal-justice.html", "Criminal Justice", "Earn an Associate Degree in Cr
       <p class="eyebrow">What Makes SwCC Different?</p>
       <h2 style="margin-top:14px;">Justice begins with character.</h2>
       <figure class="cj-poster-small">
-        <img src="assets/images/campus/criminal-justice-future-guardians-poster.jpg" alt="SwCC Criminal Justice students in navy hoodies stand before the campus clock tower beside Lady Justice and a police cruiser, under the headline Today&rsquo;s Students, Tomorrow&rsquo;s Guardians of Justice.">
+        <img src="assets/images/campus/criminal-justice-dr-coats-poster.jpg" alt="Poster of Dr. Yalonda Coats, Police Commissioner and Southwestern Christian College Criminal Justice Chair, in uniform beside an SwCC Police vehicle. Text reads: Education Is My Passion, Protection Is My Purpose &mdash; Where Passion Meets Purpose, Success Becomes the Legacy; Lead, Educate, Protect, Empower, Serve." width="1086" height="1448" loading="lazy">
       </figure>
     </div>
     <div class="cj-diff-list">
