@@ -26,6 +26,11 @@ add("financial-aid.html", "Financial Aid Office", "The Financial Aid Office at S
         <a class="plaque" href="loans.html" style="display:block;"><h4>Loans</h4></a>
         <a class="plaque" href="work-study.html" style="display:block;"><h4>Work Study</h4></a>
       </div>
+      <div class="btn-row" style="margin-top:28px;">
+        <a class="btn btn-outline-dark" href="verification-forms.html">Verification Forms</a>
+        <a class="btn btn-outline-dark" href="assets/docs/satisfactory-academic-progress-policy.pdf" target="_blank" rel="noopener">SAP Policy</a>
+        <a class="btn btn-outline-dark" href="assets/docs/sap-appeal-form.pdf" target="_blank" rel="noopener">SAP Appeal Form</a>
+      </div>
     </div>
     <aside class="side-card">
       <h4>Financial Aid Office</h4>
@@ -37,6 +42,40 @@ add("financial-aid.html", "Financial Aid Office", "The Financial Aid Office at S
         <dt>Mailing Address</dt><dd>P.O. Box 10, Terrell, TX 75160, Attn: Financial Aid Office</dd>
       </dl>
       <a class="btn btn-brass" href="{APPLY_URL}" target="_blank" rel="noopener">Apply Now</a>
+    </aside>
+  </div>
+</section>
+''')
+
+add("verification-forms.html", "Verification Forms", "Financial aid verification forms for Southwestern Christian College students: verification worksheets, non-tax filer forms, dependency override, homeless verification, and enrollment history.", f'''
+{plain_hero("Financial Aid", "Verification Forms", "Forms to complete if your FAFSA is selected for verification.")}
+<section class="section on-paper">
+  <div class="container two-col">
+    <div class="prose">
+      <p>If your Free Application for Federal Student Aid (FAFSA) is selected for verification, the Financial Aid Office will let you know which of these forms to complete and return.</p>
+      <ul class="doc-list">
+        <li><a href="assets/docs/verification-worksheet-v1-2018-19.pdf" target="_blank" rel="noopener">2018&ndash;2019 Institutional Verification Worksheet (V1) <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/verification-worksheet-v4-2018-19.pdf" target="_blank" rel="noopener">2018&ndash;2019 Institutional Verification Worksheet (V4) <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/verification-worksheet-v5-2018-19.pdf" target="_blank" rel="noopener">2018&ndash;2019 Institutional Verification Worksheet (V5) <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/household-resources-verification-2017-18.pdf" target="_blank" rel="noopener">2017&ndash;2018 Household Resources Verification (Low Income Documentation) <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/non-tax-filer-verification-student-2017-18.pdf" target="_blank" rel="noopener">Verification of Income for Non-Tax Filer &mdash; Student (2017&ndash;18) <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/non-tax-filer-verification-parent-2017-18.pdf" target="_blank" rel="noopener">Verification of Income for Non-Tax Filer &mdash; Parent (2017&ndash;18) <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/late-filers-instructions-2018-19.pdf" target="_blank" rel="noopener">Late Filers Instructions: 2018&ndash;2019 Verification of 2016 Income Information for Individuals with Unusual Circumstances <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/dependency-override-request-form.pdf" target="_blank" rel="noopener">Dependency Override Request <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/homeless-verification-form.pdf" target="_blank" rel="noopener">Homeless or Risk of being Homeless Verification Form <span class="tag">PDF</span></a></li>
+        <li><a href="assets/docs/enrollment-history-verification-form.pdf" target="_blank" rel="noopener">Enrollment History Verification Form <span class="tag">PDF</span></a></li>
+      </ul>
+      <a class="btn btn-outline-dark" href="financial-aid.html" style="margin-top:32px;">Back to Financial Aid</a>
+    </div>
+    <aside class="side-card">
+      <h4>Financial Aid Office</h4>
+      <dl>
+        <dt>Phone</dt><dd><a href="tel:9725243341">(972) 524-3341 ext. 129</a></dd>
+        <dt>Email</dt><dd><a href="mailto:Financialaid@swcc.edu">Financialaid@swcc.edu</a></dd>
+        <dt>Hours</dt><dd>Mon&ndash;Thu 9am&ndash;5pm, Fri 9am&ndash;4pm</dd>
+        <dt>Location</dt><dd>Timothy Hunt Science Building</dd>
+        <dt>Mailing Address</dt><dd>P.O. Box 10, Terrell, TX 75160, Attn: Financial Aid Office</dd>
+      </dl>
     </aside>
   </div>
 </section>
@@ -84,24 +123,64 @@ add("grants.html", "Grants", "Grant programs available to Southwestern Christian
     <p>For Texas residents with demonstrated financial need, enrolled in at least 9 credit hours. Funding is limited, so apply early.</p>
     <h2>Pell Grant</h2>
     <p>For students with exceptional financial need per the FAFSA. Award amount varies with enrolled credit hours, and usage is capped at 12 semesters of enrollment or upon earning a bachelor&rsquo;s degree.</p>
-    <a class="btn btn-outline-dark" href="assets/docs/preview-day-flyer.pdf" target="_blank" rel="noopener">Download Grant Flyer</a>
   </div>
 </section>
 ''')
 
-add("loans.html", "Loans", "Federal, state, and private loan options for Southwestern Christian College students.", f'''
+add("loans.html", "Loans", "Federal, state, and private loan options for Southwestern Christian College students, including federal borrowing limits for dependent and independent students.", f'''
 {plain_hero("Financial Aid", "Loans", "Federal, state, and private options when scholarships and grants don&rsquo;t cover the full cost.")}
 <section class="section on-paper">
   <div class="container prose">
     <h2>Federal Loans</h2>
-    <h3>Subsidized</h3>
-    <p>Requires demonstrated financial need. The government covers accruing interest while you&rsquo;re enrolled at least half-time, and for the first six months after graduation or withdrawal.</p>
-    <h3>Unsubsidized</h3>
-    <p>Available regardless of financial need. Interest begins accruing from the date of disbursement.</p>
-    <h2>State Loans</h2>
-    <p>The Texas College Access Loan (CAL) Program is an alternative loan for students who can&rsquo;t meet the full cost of attendance after exhausting other aid. Requires at least half-time enrollment and credit approval.</p>
+
+    <h3>Subsidized Loans</h3>
+    <p>Students are not responsible for interest on loan while enrolled in half-time or more credit hours, and for the first six months after graduation or withdrawing from school.</p>
+    <ul>
+      <li>Students must demonstrate financial need.</li>
+      <li>The government pays the interest while the student is enrolled in half-time credit hours or more and for the first six months after graduating or withdrawing from school.</li>
+    </ul>
+
+    <h3>Unsubsidized Loans</h3>
+    <p>Unlike the subsidized loan interest is accruing on the loan during enrollment and continues after graduation or withdrawing from school.</p>
+    <ul>
+      <li>Students are eligible for loan regardless of financial need.</li>
+      <li>Interest on loan begins accruing from the date of disbursement.</li>
+    </ul>
+
+    <h3>Dependent Students</h3>
+    <div class="loan-table-wrap">
+      <table class="loan-table">
+        <caption class="sr-only">Federal loan borrowing limits for dependent students</caption>
+        <thead><tr><th scope="col">Year</th><th scope="col">Total Annual Borrowing limit</th><th scope="col">Subsidized loan limits</th><th scope="col">Total Amount (if dependent parent is denied parent plus loan)</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">First-year undergraduate</th><td>5500</td><td>3500 (2000 - unsub)</td><td>9500</td></tr>
+          <tr><th scope="row">Second-year undergraduate</th><td>6500</td><td>4500 (2000 - unsub)</td><td>10500</td></tr>
+          <tr><th scope="row">Third-year Undergraduate and beyond</th><td>7500</td><td>5500 (2000 - unsub)</td><td>12500</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Independent Students</h3>
+    <div class="loan-table-wrap">
+      <table class="loan-table">
+        <caption class="sr-only">Federal loan borrowing limits for independent students</caption>
+        <thead><tr><th scope="col">Year</th><th scope="col">Total Annual Borrowing limit</th><th scope="col">Subsidized loan limits</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">First-year undergraduate</th><td>9500</td><td>3500 (6000 - unsub)</td></tr>
+          <tr><th scope="row">Second-year Undergraduate</th><td>10500</td><td>4500 (6000 - unsub)</td></tr>
+          <tr><th scope="row">Third-year Undergraduate and beyond</th><td>12500</td><td>5500 (7000 - unsub)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>State</h2>
+    <h3>State of Texas CAL Loan &mdash; College Access Loan Program</h3>
+    <p>Alternative education loan made to students by the state for students who are unable to meet the cost of attendance after exhausting other awarded aid. Must be enrolled at least half-time. Credit approval is required.</p>
+
     <h2>Private Loans</h2>
-    <p>A supplement when federal aid doesn&rsquo;t fully cover cost. SwCC directs students to ELM Select, a neutral, non-recommended comparison of private lenders.</p>
+    <p>Private or what is commonly referred to as alternative loans are typically used when a student&rsquo;s financial aid package &mdash; including grants, scholarships, and federal loans &mdash; doesn&rsquo;t fully cover the cost of attendance. These loans should only be considered after all federal loans options have been explored, as federal loans usually offer lower interest rates and more flexible repayment terms.</p>
+    <p>Southwestern Christian College is prohibited from recommending any particular lender, so with that being said, the college uses <a href="https://www.elmselect.com/v4/" target="_blank" rel="noopener">ELM Select</a>, a neutral platform that allows students and parents to compare lenders and loan products. <a href="https://www.elmselect.com/v4/" target="_blank" rel="noopener">Click on the link to view the lender list.</a> The lenders are selected based on the quality of their products and services for students. Please keep in mind this list is provided as a resource. Parents and students are free to choose from any lender that best suits their needs.</p>
+    <a class="btn btn-brass" href="https://www.elmselect.com/v4/" target="_blank" rel="noopener">View the ELM Select Lender List</a>
   </div>
 </section>
 ''')

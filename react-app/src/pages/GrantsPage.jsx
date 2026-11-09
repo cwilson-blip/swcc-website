@@ -24,7 +24,6 @@ export default function GrantsPage() {
     <p>For Texas residents with demonstrated financial need, enrolled in at least 9 credit hours. Funding is limited, so apply early.</p>
     <h2>Pell Grant</h2>
     <p>For students with exceptional financial need per the FAFSA. Award amount varies with enrolled credit hours, and usage is capped at 12 semesters of enrollment or upon earning a bachelor’s degree.</p>
-    <a className="btn btn-outline-dark" href="/assets/docs/preview-day-flyer.pdf" target="_blank" rel="noopener">Download Grant Flyer</a>
   </div>
 </section>
 

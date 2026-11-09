@@ -19,14 +19,55 @@ export default function LoansPage() {
 <section className="section on-paper">
   <div className="container prose">
     <h2>Federal Loans</h2>
-    <h3>Subsidized</h3>
-    <p>Requires demonstrated financial need. The government covers accruing interest while you’re enrolled at least half-time, and for the first six months after graduation or withdrawal.</p>
-    <h3>Unsubsidized</h3>
-    <p>Available regardless of financial need. Interest begins accruing from the date of disbursement.</p>
-    <h2>State Loans</h2>
-    <p>The Texas College Access Loan (CAL) Program is an alternative loan for students who can’t meet the full cost of attendance after exhausting other aid. Requires at least half-time enrollment and credit approval.</p>
+
+    <h3>Subsidized Loans</h3>
+    <p>Students are not responsible for interest on loan while enrolled in half-time or more credit hours, and for the first six months after graduation or withdrawing from school.</p>
+    <ul>
+      <li>Students must demonstrate financial need.</li>
+      <li>The government pays the interest while the student is enrolled in half-time credit hours or more and for the first six months after graduating or withdrawing from school.</li>
+    </ul>
+
+    <h3>Unsubsidized Loans</h3>
+    <p>Unlike the subsidized loan interest is accruing on the loan during enrollment and continues after graduation or withdrawing from school.</p>
+    <ul>
+      <li>Students are eligible for loan regardless of financial need.</li>
+      <li>Interest on loan begins accruing from the date of disbursement.</li>
+    </ul>
+
+    <h3>Dependent Students</h3>
+    <div className="loan-table-wrap">
+      <table className="loan-table">
+        <caption className="sr-only">Federal loan borrowing limits for dependent students</caption>
+        <thead><tr><th scope="col">Year</th><th scope="col">Total Annual Borrowing limit</th><th scope="col">Subsidized loan limits</th><th scope="col">Total Amount (if dependent parent is denied parent plus loan)</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">First-year undergraduate</th><td>5500</td><td>3500 (2000 - unsub)</td><td>9500</td></tr>
+          <tr><th scope="row">Second-year undergraduate</th><td>6500</td><td>4500 (2000 - unsub)</td><td>10500</td></tr>
+          <tr><th scope="row">Third-year Undergraduate and beyond</th><td>7500</td><td>5500 (2000 - unsub)</td><td>12500</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Independent Students</h3>
+    <div className="loan-table-wrap">
+      <table className="loan-table">
+        <caption className="sr-only">Federal loan borrowing limits for independent students</caption>
+        <thead><tr><th scope="col">Year</th><th scope="col">Total Annual Borrowing limit</th><th scope="col">Subsidized loan limits</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">First-year undergraduate</th><td>9500</td><td>3500 (6000 - unsub)</td></tr>
+          <tr><th scope="row">Second-year Undergraduate</th><td>10500</td><td>4500 (6000 - unsub)</td></tr>
+          <tr><th scope="row">Third-year Undergraduate and beyond</th><td>12500</td><td>5500 (7000 - unsub)</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>State</h2>
+    <h3>State of Texas CAL Loan — College Access Loan Program</h3>
+    <p>Alternative education loan made to students by the state for students who are unable to meet the cost of attendance after exhausting other awarded aid. Must be enrolled at least half-time. Credit approval is required.</p>
+
     <h2>Private Loans</h2>
-    <p>A supplement when federal aid doesn’t fully cover cost. SwCC directs students to ELM Select, a neutral, non-recommended comparison of private lenders.</p>
+    <p>Private or what is commonly referred to as alternative loans are typically used when a student’s financial aid package — including grants, scholarships, and federal loans — doesn’t fully cover the cost of attendance. These loans should only be considered after all federal loans options have been explored, as federal loans usually offer lower interest rates and more flexible repayment terms.</p>
+    <p>Southwestern Christian College is prohibited from recommending any particular lender, so with that being said, the college uses <a href="https://www.elmselect.com/v4/" target="_blank" rel="noopener">ELM Select</a>, a neutral platform that allows students and parents to compare lenders and loan products. <a href="https://www.elmselect.com/v4/" target="_blank" rel="noopener">Click on the link to view the lender list.</a> The lenders are selected based on the quality of their products and services for students. Please keep in mind this list is provided as a resource. Parents and students are free to choose from any lender that best suits their needs.</p>
+    <a className="btn btn-brass" href="https://www.elmselect.com/v4/" target="_blank" rel="noopener">View the ELM Select Lender List</a>
   </div>
 </section>
 

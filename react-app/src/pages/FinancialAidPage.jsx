@@ -34,6 +34,11 @@ export default function FinancialAidPage() {
         <Link className="plaque" to="/loans" style={{display: 'block'}}><h4>Loans</h4></Link>
         <Link className="plaque" to="/work-study" style={{display: 'block'}}><h4>Work Study</h4></Link>
       </div>
+      <div className="btn-row" style={{marginTop: '28px'}}>
+        <Link className="btn btn-outline-dark" to="/verification-forms">Verification Forms</Link>
+        <a className="btn btn-outline-dark" href="/assets/docs/satisfactory-academic-progress-policy.pdf" target="_blank" rel="noopener">SAP Policy</a>
+        <a className="btn btn-outline-dark" href="/assets/docs/sap-appeal-form.pdf" target="_blank" rel="noopener">SAP Appeal Form</a>
+      </div>
     </div>
     <aside className="side-card">
       <h4>Financial Aid Office</h4>

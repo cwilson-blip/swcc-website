@@ -17,6 +17,7 @@ const PreviewDayPage = lazy(() => import("./pages/PreviewDayPage.jsx"));
 const AdmissionsInternationalPage = lazy(() => import("./pages/AdmissionsInternationalPage.jsx"));
 const AdmittedNextStepsPage = lazy(() => import("./pages/AdmittedNextStepsPage.jsx"));
 const FinancialAidPage = lazy(() => import("./pages/FinancialAidPage.jsx"));
+const VerificationFormsPage = lazy(() => import("./pages/VerificationFormsPage.jsx"));
 const ScholarshipsPage = lazy(() => import("./pages/ScholarshipsPage.jsx"));
 const GrantsPage = lazy(() => import("./pages/GrantsPage.jsx"));
 const LoansPage = lazy(() => import("./pages/LoansPage.jsx"));
@@ -72,6 +73,7 @@ export const routes = [
   { path: "/admissions-international", Component: AdmissionsInternationalPage },
   { path: "/admitted-next-steps", Component: AdmittedNextStepsPage },
   { path: "/financial-aid", Component: FinancialAidPage },
+  { path: "/verification-forms", Component: VerificationFormsPage },
   { path: "/scholarships", Component: ScholarshipsPage },
   { path: "/grants", Component: GrantsPage },
   { path: "/loans", Component: LoansPage },

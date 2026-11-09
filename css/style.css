@@ -1243,3 +1243,17 @@ body.nav-locked { overflow: hidden; }
   .tips-grid, .tips-grid-3 { grid-template-columns: 1fr; }
   .btn-wrap { white-space: normal; text-align: center; justify-content: center; max-width: 100%; }
 }
+
+/* =================================================================
+   Loans: federal borrowing-limit tables
+   ================================================================= */
+
+.loan-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 14px 0 34px; }
+.loan-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; min-width: 520px; }
+.loan-table thead th {
+  font-family: var(--font-label); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--stone); text-align: left; vertical-align: bottom; padding: 0 14px 10px 0; border-bottom: 2px solid var(--ink); line-height: 1.35;
+}
+.loan-table tbody th { text-align: left; font-family: var(--font-display); font-weight: 600; color: var(--ink); padding: 13px 14px 13px 0; border-bottom: 1px solid var(--line); width: 30%; }
+.loan-table td { padding: 13px 14px 13px 0; border-bottom: 1px solid var(--line); color: var(--ink); }
+.loan-table td:nth-of-type(1) { font-weight: 600; }
